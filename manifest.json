@@ -3,7 +3,7 @@
   "minSupportedVersion": "1.0.0",
   "minSupportedVersionByTenant": {
     "$comment": "Overrides minSupportedVersion for a tenant whose store listing (App Store / Play Store) hasn't caught up to the latest version yet. Only raise a tenant's entry once that tenant's version is ACTUALLY approved and live on its own store — raising it earlier locks users out with no update path to take. Keyed by public VERSION, never by build number — internal/QA builds bump buildNumber independently of the public version and must never affect this gate.",
-    "tenant-a": "1.0.1",
+    "tenant-a": "1.0.0",
     "tenant-b": "1.0.0",
     "tenant-c": "1.0.0",
     "tenant-d": "1.0.0"
