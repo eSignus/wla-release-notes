@@ -1,5 +1,5 @@
 {
-  "$comment": "Canonical, repo-tracked source of truth for the in-app force-update gate and the Settings > About this version screen. Published VERBATIM to {cdnBaseUrl}/release-notes/manifest.json as a separate, out-of-repo deploy step after each release cut — this file itself is never bundled into the app. Generated/appended by the /release-notes skill (.claude/skills/release-notes/SKILL.md); never hand-edit `releases` entries after they've shipped.",
+  "$comment": "Canonical, repo-tracked source of truth for the in-app force-update gate and the Settings > About this version screen — this file itself is never bundled into the app. Whenever THIS FILE changes on `main` (path-filtered — main takes plenty of ordinary commits between real releases, so a bare push-to-main trigger is the wrong signal), .github/workflows/publish-release-notes.yml auto-syncs it verbatim to the public eSignus/wla-release-notes repo, served to the app via jsDelivr (RELEASE_NOTES_URL in src/config/constants.ts) — publishing is 'merge the changelog entry', not a separate manual step. That public repo is a mirror only; never edit it directly. Generated/appended by the /release-notes skill (.claude/skills/release-notes/SKILL.md); never hand-edit `releases` entries after they've shipped. scripts/validateReleaseVersion.js (run in ci.yml on every push/PR, and again before publishing) fails the build if this file's latest version drifts from android/app/build.gradle + iOS MARKETING_VERSION.",
   "minSupportedVersion": "1.0.0",
   "minSupportedVersionByTenant": {
     "$comment": "Overrides minSupportedVersion for a tenant whose store listing (App Store / Play Store) hasn't caught up to the latest version yet. Only raise a tenant's entry once that tenant's version is ACTUALLY approved and live on its own store — raising it earlier locks users out with no update path to take. Keyed by public VERSION, never by build number — internal/QA builds bump buildNumber independently of the public version and must never affect this gate.",
@@ -18,7 +18,7 @@
         "en": [
           "Replaced the Swap flow's mockup with a real, live swap experience — get a provider quote, then fund it with a single card-signed transaction.",
           "Added app-wide network status detection so the app always knows when you're online or offline.",
-          "Fixed an issue where seed import could show the wrong online/offline prompt after a spotty connection."
+          "Fixed an issue where seed import could show the wrong online/offline prompt after a stable connection."
         ],
         "es": [
           "Sustituimos la simulación del flujo de Swap por una experiencia real: obtén una cotización de un proveedor y finánciala con un único envío firmado por tarjeta.",
