@@ -1,5 +1,5 @@
 {
-  "$comment": "Canonical, repo-tracked source of truth for the in-app force-update gate and the Settings > About this version screen — this file itself is never bundled into the app. Whenever THIS FILE changes on `main` (path-filtered — main takes plenty of ordinary commits between real releases, so a bare push-to-main trigger is the wrong signal), .github/workflows/publish-release-notes.yml auto-syncs it verbatim to the public eSignus/wla-release-notes repo, served to the app via jsDelivr (RELEASE_NOTES_URL in src/config/constants.ts) — publishing is 'merge the changelog entry', not a separate manual step. That public repo is a mirror only; never edit it directly. Generated/appended by the /release-notes skill (.claude/skills/release-notes/SKILL.md); never hand-edit `releases` entries after they've shipped. scripts/validateReleaseVersion.js (run in ci.yml on every push/PR, and again before publishing) fails the build if this file's latest version drifts from android/app/build.gradle + iOS MARKETING_VERSION.",
+  "$comment": "Canonical, repo-tracked source of truth for the in-app force-update gate and the Settings > About this version screen — this file itself is never bundled into the app. Whenever THIS FILE changes on `main` (path-filtered — main takes plenty of ordinary commits between real releases, so a bare push-to-main trigger is the wrong signal), .github/workflows/publish-release-notes.yml auto-syncs it verbatim to the public eSignus/wla-release-notes repo, served to the app via raw.githubusercontent.com (RELEASE_NOTES_URL in src/config/constants.ts — deliberately NOT jsDelivr, whose @main branch resolution was live-tested and found to lag a confirmed push by 2+ commits and 10+ minutes) — publishing is 'merge the changelog entry', not a separate manual step. That public repo is a mirror only; never edit it directly. Generated/appended by the /release-notes skill (.claude/skills/release-notes/SKILL.md); never hand-edit `releases` entries after they've shipped. scripts/validateReleaseVersion.js (run in ci.yml on every push/PR, and again before publishing) fails the build if this file's latest version drifts from android/app/build.gradle + iOS MARKETING_VERSION, or if minSupportedVersion/minSupportedVersionByTenant are malformed or set ahead of the latest release.",
   "minSupportedVersion": "1.0.0",
   "minSupportedVersionByTenant": {
     "$comment": "Overrides minSupportedVersion for a tenant whose store listing (App Store / Play Store) hasn't caught up to the latest version yet. Only raise a tenant's entry once that tenant's version is ACTUALLY approved and live on its own store — raising it earlier locks users out with no update path to take. Keyed by public VERSION, never by build number — internal/QA builds bump buildNumber independently of the public version and must never affect this gate.",
@@ -9,6 +9,34 @@
     "tenant-d": "1.0.0"
   },
   "releases": [
+    {
+      "version": "1.0.0",
+      "buildNumber": 37,
+      "commit": "4ffeb6b5cba65e3a3e9dfbc0c5398331c58e1783",
+      "date": "2026-08-15",
+      "notes": {
+        "en": [
+          "Added a mandatory update screen and a \"What's new\" section in Settings, so you always know when an update is required and what changed.",
+          "Swap: you can now send your swap proceeds straight to one of your own wallets, not just an external address.",
+          "Swap: quotes now show the provider's fee as an accurate percentage.",
+          "Buy and Swap now share the same \"Service provided by\" info sheet, and its info button always stays tappable no matter how long the provider's name is.",
+          "Buy: country detection now falls back quickly instead of leaving the country field waiting on a slow connection.",
+          "Buy and Swap feel lighter — background syncing pauses while you're in either flow instead of reloading things underneath you.",
+          "Fixed picking a coin or country sometimes leaving a duplicate screen behind, so the back button now takes you exactly where you expect.",
+          "Fixed the \"Delegate\" wallet action showing with stray curly braces around its name."
+        ],
+        "es": [
+          "Añadimos una pantalla de actualización obligatoria y una sección de \"Novedades\" en Ajustes, para que siempre sepas cuándo se requiere actualizar y qué ha cambiado.",
+          "Swap: ahora puedes enviar el resultado de tu intercambio directamente a uno de tus propios monederos, no solo a una dirección externa.",
+          "Swap: las cotizaciones ahora muestran la comisión del proveedor como un porcentaje correcto.",
+          "Compra y Swap comparten ahora la misma ficha informativa \"Servicio proporcionado por\", y su botón de información siempre queda pulsable sin importar la longitud del nombre del proveedor.",
+          "Compra: la detección de país ahora responde rápido en vez de dejar el campo de país esperando con una conexión lenta.",
+          "Compra y Swap se sienten más ágiles: la sincronización en segundo plano se pausa mientras usas cualquiera de los dos flujos, en lugar de recargar datos mientras tanto.",
+          "Corregimos que elegir una moneda o país a veces dejaba una pantalla duplicada detrás, así que el botón de volver ahora te lleva exactamente donde esperas.",
+          "Corregimos que la acción de monedero \"Delegar\" se mostraba con llaves de más alrededor de su nombre."
+        ]
+      }
+    },
     {
       "version": "1.0.0",
       "buildNumber": 36,
