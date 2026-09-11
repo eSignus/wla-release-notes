@@ -11,6 +11,84 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 52,
+      "commit": "1f507489c502a084b6aa944f4224623b339d729c",
+      "date": "2026-09-11",
+      "notes": {
+        "en": [
+          "Settings → Cards now lets you delete a card you no longer use.",
+          "Added a \"Balance Currency\" option in Settings with real exchange-rate conversion.",
+          "Added a helpful info dialog when choosing your account type during setup, and fixed that screen sometimes showing options not available for your account.",
+          "Improved sign-in code retry limits for better account protection.",
+          "Fixed some wallet balances on certain networks showing the wrong coin, and some cards showing the wrong brand icon.",
+          "Fixed a crash that could happen when tapping the order-card or buy-card links.",
+          "Fixed sending certain coins sometimes being refused right after opening the app.",
+          "Made the selected quick-amount button clearer on the Send screen, and fixed several small color/style inconsistencies across the app."
+        ],
+        "es": [
+          "Ajustes → Tarjetas ahora te permite eliminar una tarjeta que ya no uses.",
+          "Añadimos una opción de \"Moneda de saldo\" en Ajustes con conversión real según el tipo de cambio.",
+          "Añadimos un aviso informativo útil al elegir tu tipo de cuenta durante la configuración, y corregimos que esa pantalla mostrara a veces opciones no disponibles para tu cuenta.",
+          "Mejoramos los límites de reintento del código de acceso, por mayor protección de la cuenta.",
+          "Corregimos que el saldo de algunos monederos en ciertas redes mostrara la moneda equivocada, y que algunas tarjetas mostraran el icono de marca incorrecto.",
+          "Corregimos un cierre inesperado que podía ocurrir al tocar los enlaces de pedir tarjeta o comprar tarjeta.",
+          "Corregimos que el envío de algunas monedas a veces se rechazara justo después de abrir la app.",
+          "Hicimos más claro qué botón de importe rápido seleccionaste en la pantalla de Envío, y corregimos varias pequeñas inconsistencias de color y estilo en la app."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "buildNumber": 47,
+      "commit": "742cf00214de4aed0d0b4fad2bc2a6e65227bdeb",
+      "date": "2026-09-04",
+      "notes": {
+        "en": [
+          "Fixed a delay where some transaction rows briefly showed the crypto amount but no dollar value after opening a wallet.",
+          "Fixed Google/Apple sign-in accounts sometimes being offered a phone verification option that couldn't work for them.",
+          "Settings → Password sign-in now works: set, change, or turn off your local unlock password, plus a new \"Forgot password?\" recovery option.",
+          "Buy: purchase status now reflects what the payment provider actually reports, including a new \"unconfirmed\" state — no more purchases shown as complete before they are, and the checkout screen no longer gets stuck after finishing a purchase.",
+          "Buy: the payment method you select is now the one actually used at checkout.",
+          "Improved how your local sign-in password is stored, for better security. If you already had one set, you'll need to set it again after this update.",
+          "Fixed some coins and tokens showing the Bitcoin logo when their own icon couldn't be found — they now show a plain lettered icon instead."
+        ],
+        "es": [
+          "Corregimos un retraso por el que algunas transacciones mostraban el importe en cripto pero sin su valor en dólares durante un rato al abrir un monedero.",
+          "Corregimos que a las cuentas de acceso con Google/Apple a veces se les ofrecía una opción de verificación por teléfono que no podía funcionar para ellas.",
+          "Ajustes → Acceso con contraseña ya funciona: crea, cambia o desactiva tu contraseña local de desbloqueo, con una nueva opción de recuperación \"¿Olvidaste tu contraseña?\".",
+          "Compra: el estado de la compra ahora refleja lo que realmente informa el proveedor de pago, incluido un nuevo estado \"sin confirmar\" — ya no se muestran compras como completadas antes de estarlo, y la pantalla de pago ya no se queda bloqueada tras finalizar una compra.",
+          "Compra: el método de pago que eliges ahora es el que realmente se usa al pagar.",
+          "Mejoramos cómo se guarda tu contraseña local de acceso, por mayor seguridad. Si ya tenías una configurada, deberás volver a configurarla tras esta actualización.",
+          "Corregimos que algunas monedas y tokens mostraban el logo de Bitcoin cuando no se encontraba su propio icono — ahora muestran un icono con su inicial en su lugar."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "buildNumber": 46,
+      "commit": "db49eb7468234ed0f0385868648507c015baeb7f",
+      "date": "2026-09-03",
+      "notes": {
+        "en": [
+          "Fixed the \"Add custom token\" network list sometimes showing unsupported chains, missing supported ones, or listing a token as if it were a network.",
+          "Order Backup Card now works end to end — it shows your real cards, uses your verified phone number, taps your card to confirm it's yours, and opens a working checkout page.",
+          "Fixed \"Order card\" not working for Hashwallet.",
+          "Fixed a transaction the network actually rejected sometimes showing as sent — you'll now see a clear error with the option to retry.",
+          "Fixed balances and amounts on Base, Arbitrum, Optimism and Blast wallets showing the network's name instead of ETH almost everywhere except the wallet's main balance.",
+          "Fixed \"Fees\" entries in your transaction history showing $0.00 instead of the actual network fee."
+        ],
+        "es": [
+          "Corregimos que la lista de redes de \"Añadir token personalizado\" a veces mostraba cadenas no compatibles, no mostraba algunas compatibles, o incluía un token como si fuera una red.",
+          "Solicitar tarjeta de respaldo ya funciona de principio a fin: muestra tus tarjetas reales, usa tu número de teléfono verificado, confirma que la tarjeta es tuya con un toque real y abre una página de compra que funciona.",
+          "Corregimos que \"Pedir tarjeta\" no funcionaba en Hashwallet.",
+          "Corregimos que una transacción realmente rechazada por la red a veces se mostraba como enviada; ahora verás un error claro con opción de reintentar.",
+          "Corregimos que los saldos e importes en monederos de Base, Arbitrum, Optimism y Blast mostraban el nombre de la red en vez de ETH en casi todos los sitios excepto el saldo principal del monedero.",
+          "Corregimos que las entradas de \"Comisiones\" en tu historial de transacciones mostraban $0,00 en lugar de la comisión de red real."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 37,
       "commit": "4ffeb6b5cba65e3a3e9dfbc0c5398331c58e1783",
       "date": "2026-08-15",
