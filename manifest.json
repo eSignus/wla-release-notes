@@ -1,5 +1,5 @@
 {
-  "$comment": "Canonical, repo-tracked source of truth for the in-app force-update gate and the Settings > About this version screen — this file itself is never bundled into the app. Whenever THIS FILE changes on `main` (path-filtered — main takes plenty of ordinary commits between real releases, so a bare push-to-main trigger is the wrong signal), .github/workflows/publish-release-notes.yml auto-syncs it verbatim to the public eSignus/wla-release-notes repo, served to the app via raw.githubusercontent.com (RELEASE_NOTES_URL in src/config/constants.ts — deliberately NOT jsDelivr, whose @main branch resolution was live-tested and found to lag a confirmed push by 2+ commits and 10+ minutes) — publishing is 'merge the changelog entry', not a separate manual step. That public repo is a mirror only; never edit it directly. Generated/appended by the /release-notes skill (.claude/skills/release-notes/SKILL.md); never hand-edit `releases` entries after they've shipped. scripts/validateReleaseVersion.js (run in ci.yml on every push/PR, and again before publishing) fails the build if this file's latest version drifts from android/app/build.gradle + iOS MARKETING_VERSION, or if minSupportedVersion/minSupportedVersionByTenant are malformed or set ahead of the latest release.",
+  "$comment": "Canonical, repo-tracked source of truth for the in-app force-update gate and the Settings > About this version screen — this file itself is never bundled into the app. Whenever THIS FILE changes on `main` (path-filtered — main takes plenty of ordinary commits between real releases, so a bare push-to-main trigger is the wrong signal), .github/workflows/publish-release-notes.yml auto-syncs it verbatim to the public eSignus/wla-release-notes repo, served to the app via raw.githubusercontent.com (RELEASE_NOTES_URL in src/config/constants.ts — deliberately NOT jsDelivr, whose @main branch resolution was live-tested and found to lag a confirmed push by 2+ commits and 10+ minutes) — publishing is 'merge the changelog entry', not a separate manual step. That public repo is a mirror only; never edit it directly. Generated/appended by the /release-notes skill (.claude/skills/release-notes/SKILL.md); never hand-edit `releases` entries after they've shipped. scripts/validateReleaseVersion.js (run in ci.yml on every push/PR, and again before publishing) fails the build if this file's latest version drifts from android/app/build.gradle + iOS MARKETING_VERSION, OR if this file's latest buildNumber drifts from android/app/build.gradle's versionCode (this is the check that actually catches a build-number-only bump with no new /release-notes entry — builds 48-51 slipped past a version-only check this way), or if minSupportedVersion/minSupportedVersionByTenant are malformed or set ahead of the latest release.",
   "minSupportedVersion": "1.0.0",
   "minSupportedVersionByTenant": {
     "$comment": "Overrides minSupportedVersion for a tenant whose store listing (App Store / Play Store) hasn't caught up to the latest version yet. Only raise a tenant's entry once that tenant's version is ACTUALLY approved and live on its own store — raising it earlier locks users out with no update path to take. Keyed by public VERSION, never by build number — internal/QA builds bump buildNumber independently of the public version and must never affect this gate.",
@@ -12,7 +12,7 @@
     {
       "version": "1.0.0",
       "buildNumber": 52,
-      "commit": "1f507489c502a084b6aa944f4224623b339d729c",
+      "commit": "dda37b32bbd66d806f2d0e907f533ef0f9e8cff1",
       "date": "2026-09-11",
       "notes": {
         "en": [
@@ -23,7 +23,11 @@
           "Fixed some wallet balances on certain networks showing the wrong coin, and some cards showing the wrong brand icon.",
           "Fixed a crash that could happen when tapping the order-card or buy-card links.",
           "Fixed sending certain coins sometimes being refused right after opening the app.",
-          "Made the selected quick-amount button clearer on the Send screen, and fixed several small color/style inconsistencies across the app."
+          "Made the selected quick-amount button clearer on the Send screen, and fixed several small color/style inconsistencies across the app.",
+          "Fixed removing your account sometimes landing on a sign-in screen instead of the welcome screen.",
+          "Settings → Sign out now locks the app like closing and reopening it, instead of fully signing you out.",
+          "Send now warns you if you enter your own wallet's address as the destination.",
+          "Classic accounts can now export an encrypted backup of their wallets from Settings → Seeds."
         ],
         "es": [
           "Ajustes → Tarjetas ahora te permite eliminar una tarjeta que ya no uses.",
@@ -33,7 +37,11 @@
           "Corregimos que el saldo de algunos monederos en ciertas redes mostrara la moneda equivocada, y que algunas tarjetas mostraran el icono de marca incorrecto.",
           "Corregimos un cierre inesperado que podía ocurrir al tocar los enlaces de pedir tarjeta o comprar tarjeta.",
           "Corregimos que el envío de algunas monedas a veces se rechazara justo después de abrir la app.",
-          "Hicimos más claro qué botón de importe rápido seleccionaste en la pantalla de Envío, y corregimos varias pequeñas inconsistencias de color y estilo en la app."
+          "Hicimos más claro qué botón de importe rápido seleccionaste en la pantalla de Envío, y corregimos varias pequeñas inconsistencias de color y estilo en la app.",
+          "Corregimos que eliminar tu cuenta a veces te llevara a una pantalla de inicio de sesión en vez de a la de bienvenida.",
+          "Ajustes → Cerrar sesión ahora bloquea la app como si la cerraras y volvieras a abrir, en vez de cerrar sesión por completo.",
+          "Envío ahora te avisa si introduces la dirección de tu propio monedero como destino.",
+          "Las cuentas Classic ya pueden exportar una copia de seguridad cifrada de sus monederos desde Ajustes → Semillas."
         ]
       }
     },
