@@ -11,6 +11,48 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 55,
+      "commit": "81dd69c01104bf44be00d2d2b402b738c8e34a62",
+      "date": "2026-09-16",
+      "notes": {
+        "en": [
+          "Fixed adding a BTC wallet sometimes not offering the Native SegWit / SegWit / Legacy address-type choice on a fresh install, and silently creating the wallet with no type at all when that happened.",
+          "Fixed Classic accounts being unable to send or swap at all in some cases — the app now asks for your seedphrase before scanning the card instead of silently failing afterward.",
+          "Entering the wrong seedphrase now shows the same clear message everywhere a card can refuse it — creating a wallet, sending, swapping, and WalletConnect requests — not just when backing up.",
+          "Fixed backing up an account permanently failing when it held certain XLM wallets, with no way to recover — the affected transaction simply shows no block number instead."
+        ],
+        "es": [
+          "Corregimos que añadir un monedero BTC a veces no ofreciera la elección de formato Native SegWit / SegWit / Legacy en una instalación nueva, y creara el monedero sin ningún tipo cuando eso ocurría.",
+          "Corregimos que las cuentas Classic no pudieran enviar ni intercambiar en algunos casos — la app ahora pide tu frase semilla antes de escanear la tarjeta, en lugar de fallar en silencio después.",
+          "Introducir una frase semilla incorrecta ahora muestra el mismo mensaje claro en cualquier lugar donde la tarjeta pueda rechazarla — crear un monedero, enviar, intercambiar y solicitudes de WalletConnect — no solo al hacer una copia de seguridad.",
+          "Corregimos que hacer una copia de seguridad fallara permanentemente cuando la cuenta tenía ciertos monederos XLM, sin forma de solucionarlo — la transacción afectada simplemente no muestra número de bloque."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "buildNumber": 53,
+      "commit": "1439fde87507dd3ab137ebd02fb2e8668b07c653",
+      "date": "2026-09-16",
+      "notes": {
+        "en": [
+          "Restoring a Classic account from a backup (.ehw) file now actually works — it used to report success without truly restoring anything.",
+          "Fixed opening the second wallet when one token is held on two different wallets of the same chain — it used to always open the first one instead, and both wallets showed the same confusing name.",
+          "Fixed a restored portfolio showing $0 for several minutes after a Classic restore — balances now price correctly as soon as pricing data is ready.",
+          "Entering the wrong seedphrase while backing up now shows a clear \"That seedphrase does not match this card\" message instead of a generic error.",
+          "Fixed the exported backup file sometimes saving with the wrong file extension on Android."
+        ],
+        "es": [
+          "Restaurar una cuenta Classic desde un archivo de copia de seguridad (.ehw) ya funciona de verdad — antes indicaba éxito sin restaurar realmente nada.",
+          "Corregimos que no se pudiera abrir el segundo monedero cuando un token se tiene en dos monederos distintos de la misma red — antes siempre abría el primero, y ambos monederos mostraban el mismo nombre confuso.",
+          "Corregimos que un monedero restaurado mostrara $0 durante varios minutos tras una restauración Classic — los saldos ahora se valoran correctamente en cuanto los datos de precios están listos.",
+          "Introducir una frase semilla incorrecta al hacer una copia de seguridad ahora muestra un mensaje claro, \"Esa frase semilla no coincide con esta tarjeta\", en lugar de un error genérico.",
+          "Corregimos que el archivo de copia de seguridad exportado a veces se guardara con la extensión de archivo incorrecta en Android."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 52,
       "commit": "dda37b32bbd66d806f2d0e907f533ef0f9e8cff1",
       "date": "2026-09-11",
