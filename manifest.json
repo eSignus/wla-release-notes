@@ -11,6 +11,32 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 57,
+      "commit": "887061a068701311ae296adc0a90d956b8336c27",
+      "date": "2026-09-18",
+      "notes": {
+        "en": [
+          "Fixed sending certain coins (like TRX) failing outright with a raw server error, because the app offered more decimal precision than the coin actually supports.",
+          "Fixed sending a high-precision token (e.g. many ERC-20s) for a very slightly different amount than what was typed, due to a rounding issue — it's now sent to the exact digit.",
+          "Send: a network fee you can't afford is now also highlighted in red, not just called out in the banner below it.",
+          "The loading animation while a transaction or purchase is processing (Send, Swap, Buy) now uses your app's own branding instead of a generic one.",
+          "Fixed the \"Get Started\" label and wired it — along with FAQs, Privacy Policy, Terms and Conditions, the Telegram group, and Submit a request — to actually open the right pages instead of doing nothing.",
+          "Added a language setting so you can choose the app's display language yourself.",
+          "Fixed a \"Success\" message appearing on password unlock even when your session had actually expired, with no real explanation."
+        ],
+        "es": [
+          "Corregimos que enviar ciertas monedas (como TRX) fallara directamente con un error de servidor en bruto, porque la app ofrecía más precisión decimal de la que la moneda realmente admite.",
+          "Corregimos que enviar un token de alta precisión (por ejemplo, muchos ERC-20) enviara un importe ligeramente distinto al escrito, por un problema de redondeo — ahora se envía con el dígito exacto.",
+          "Enviar: una comisión de red que no puedes pagar ahora también se resalta en rojo, no solo se indica en el aviso de debajo.",
+          "La animación de carga mientras se procesa una transacción o compra (Enviar, Swap, Comprar) ahora usa la marca de tu app en lugar de una genérica.",
+          "Corregimos la etiqueta \"Get Started\" y la conectamos — junto con FAQs, Política de privacidad, Términos y condiciones, el grupo de Telegram y Enviar una solicitud — para que abran realmente las páginas correspondientes en lugar de no hacer nada.",
+          "Añadimos un ajuste de idioma para que puedas elegir tú mismo el idioma de la app.",
+          "Corregimos que apareciera un mensaje de \"Éxito\" al desbloquear con contraseña incluso cuando la sesión había expirado de verdad, sin ninguna explicación real."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 56,
       "commit": "dcaa4e05ead244bff94267357f6c11f6a1d322a8",
       "date": "2026-09-17",
