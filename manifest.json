@@ -11,6 +11,32 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 56,
+      "commit": "dcaa4e05ead244bff94267357f6c11f6a1d322a8",
+      "date": "2026-09-17",
+      "notes": {
+        "en": [
+          "Fixed pressing \"Max\" in Send and Swap sometimes refusing its own amount as insufficient balance.",
+          "Send now tells you clearly when your amount was auto-adjusted to cover the fee, and when a fee you choose doesn't fit your balance, the summary says so and offers to change the amount instead.",
+          "Fixed a token's network fee sometimes showing in lowercase (e.g. \"eth\") instead of its proper ticker.",
+          "Fixed editing the network fee on the Send summary opening an endless chain of duplicate summary screens.",
+          "Settings now lets you set or edit your account's display name, and it's included in your portfolio backups.",
+          "Settings → Cards now shows each card's real artwork and balance, and \"Delete card\" is styled as the destructive action it is.",
+          "Settings → Cards now has its own \"Import backup\" option, not just during Classic sign-in."
+        ],
+        "es": [
+          "Corregimos que pulsar \"Máx.\" en Enviar y Swap a veces rechazara su propio importe por saldo insuficiente.",
+          "Enviar ahora indica claramente cuándo tu importe se ajustó automáticamente para cubrir la comisión, y cuando una comisión que eliges no encaja en tu saldo, el resumen lo indica y te ofrece cambiar el importe.",
+          "Corregimos que la comisión de red de un token a veces se mostrara en minúsculas (p. ej. \"eth\") en lugar de su símbolo correcto.",
+          "Corregimos que editar la comisión de red en el resumen de envío abriera una cadena interminable de pantallas de resumen duplicadas.",
+          "Ajustes ahora te permite establecer o editar el nombre de tu cuenta, y se incluye en tus copias de seguridad del portafolio.",
+          "Ajustes → Tarjetas ahora muestra la ilustración real y el saldo de cada tarjeta, y \"Eliminar tarjeta\" se muestra con el estilo destructivo que le corresponde.",
+          "Ajustes → Tarjetas ahora tiene su propia opción \"Importar copia de seguridad\", no solo durante el inicio de sesión Classic."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 55,
       "commit": "81dd69c01104bf44be00d2d2b402b738c8e34a62",
       "date": "2026-09-16",
