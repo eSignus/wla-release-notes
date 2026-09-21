@@ -11,6 +11,30 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 58,
+      "commit": "f1b912853c4111b7606128defcde7059a9cf3b54",
+      "date": "2026-09-21",
+      "notes": {
+        "en": [
+          "Classic accounts: \"Forgot password?\" now re-verifies with your physical card instead of doing nothing — email reset was never possible for these accounts.",
+          "Wallet and token screens now show a clear offline banner and let you pull to refresh, instead of showing an indefinite loading state when your connection drops.",
+          "Fixed Classic accounts being able to accidentally hide or delete their only seed, which could leave the portfolio looking empty with no way back.",
+          "Settings → Cards → a card now has \"Edit name\" and \"Forget seedphrase\" actions.",
+          "Fixed Classic and Virtual accounts' purchase history being recorded in a pool shared with other such accounts — the Purchases option is hidden for these account types for now, instead.",
+          "Sign-in reliability improvements found during a security review of our sign-in library: fixed a sign-in code delivery that could hang indefinitely, a Google/Apple sign-in edge case, and a broken password generator."
+        ],
+        "es": [
+          "Cuentas Classic: \"¿Olvidaste tu contraseña?\" ahora se reverifica con tu tarjeta física en lugar de no hacer nada — el restablecimiento por email nunca fue posible para estas cuentas.",
+          "Las pantallas de monedero y token ahora muestran un aviso claro de sin conexión y permiten actualizar deslizando, en lugar de mostrar una carga indefinida cuando se pierde la conexión.",
+          "Corregimos que las cuentas Classic pudieran ocultar o eliminar accidentalmente su única semilla, lo que podía dejar el portafolio con aspecto vacío sin forma de volver atrás.",
+          "Ajustes → Tarjetas → una tarjeta ahora tiene las acciones \"Editar nombre\" y \"Olvidar frase semilla\".",
+          "Corregimos que el historial de compras de cuentas Classic y Virtual se registrara en un fondo compartido con otras cuentas de ese tipo — la opción Compras se oculta por ahora para estos tipos de cuenta.",
+          "Mejoras de fiabilidad en el inicio de sesión, encontradas en una revisión de seguridad de nuestra librería de acceso: corregimos un envío de código que podía quedarse colgado indefinidamente, un caso límite del inicio de sesión con Google/Apple, y un generador de contraseñas defectuoso."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 57,
       "commit": "887061a068701311ae296adc0a90d956b8336c27",
       "date": "2026-09-18",
