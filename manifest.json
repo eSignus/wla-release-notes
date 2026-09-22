@@ -11,6 +11,32 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 59,
+      "commit": "14452a5d755fe93813b5edb9bf2a9fb38d641dc2",
+      "date": "2026-09-22",
+      "notes": {
+        "en": [
+          "Fixed a Classic account being permanently locked out after 5 wrong unlock-password attempts, with wiping the wallet as the only way out — it now recovers with your physical card instead.",
+          "Fixed a locked session sometimes landing on a dead-end \"can't verify cloud backup\" screen instead of the normal sign-in-again screen after returning from background.",
+          "Biometric unlock is now properly tied to your device's enrolled fingerprint/Face ID — if you change it, the biometric option correctly disappears until you unlock once with your password.",
+          "Your local sign-in password is now stored more securely — this upgrades automatically the next time you unlock, no action needed.",
+          "Apple and Google sign-in buttons now show their full \"Continue with Apple/Google\" text instead of just an icon.",
+          "Fixed a rare case where sending a token with no clearly stated decimal precision could send the wrong amount — it's now refused instead.",
+          "Fixed two rare data-integrity issues found in a security review: a deleted seed could reappear after a background sync, and \"Remove account\"/\"Start over\" could in rare cases leave the previous account's data behind instead of fully wiping it."
+        ],
+        "es": [
+          "Corregimos que una cuenta Classic quedara bloqueada permanentemente tras 5 intentos fallidos de contraseña de desbloqueo, con borrar la cartera como única salida — ahora se recupera con tu tarjeta física.",
+          "Corregimos que una sesión bloqueada a veces terminara en una pantalla sin salida de \"no se puede verificar la copia en la nube\" en lugar de la pantalla normal de volver a iniciar sesión al regresar de segundo plano.",
+          "El desbloqueo biométrico ahora está correctamente vinculado a la huella/Face ID registrada en tu dispositivo — si la cambias, la opción biométrica desaparece correctamente hasta que desbloquees una vez con tu contraseña.",
+          "Tu contraseña local de acceso ahora se guarda de forma más segura — se actualiza automáticamente la próxima vez que desbloquees, sin que tengas que hacer nada.",
+          "Los botones de acceso con Apple y Google ahora muestran su texto completo \"Continuar con Apple/Google\" en lugar de solo un icono.",
+          "Corregimos un caso poco frecuente en el que enviar un token sin una precisión decimal claramente indicada podía enviar un importe incorrecto — ahora se rechaza en su lugar.",
+          "Corregimos dos problemas poco frecuentes de integridad de datos, encontrados en una revisión de seguridad: una semilla eliminada podía reaparecer tras una sincronización en segundo plano, y \"Eliminar cuenta\"/\"Empezar de nuevo\" podía en casos raros dejar datos de la cuenta anterior en vez de borrarlos por completo."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 58,
       "commit": "f1b912853c4111b7606128defcde7059a9cf3b54",
       "date": "2026-09-21",
