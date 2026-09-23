@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 60,
+      "commit": "337c066ed215bca3eb2e2cc813b54c0affe9ca84",
+      "date": "2026-09-23",
+      "notes": {
+        "en": [
+          "Fixed \"Explore without card\" accounts behaving like full Classic accounts, including showing the \"Activate card\" prompt meant for people who actually own one.",
+          "Fixed the biometric unlock button not coming back after re-verifying with an email/SMS code — it previously only recovered after a password unlock.",
+          "Smart-Activation screens now show a real step-by-step progress bar in the header instead of plain \"step X of Y\" text.",
+          "Fixed the sign-in attempt limit being resettable by clearing app data — it's now protected against that.",
+          "Swap transactions now show clearly as \"Swap\" in your Activity list and transaction details, with the provider and destination coin — instead of looking like an ordinary send.",
+          "Improved accessibility: Send, Swap and Buy amount fields are now properly labeled for screen readers.",
+          "Fixed the loading animation on Send, Swap and Buy processing screens rendering completely blank on Android.",
+          "Fixed the sign-in code entry boxes being slightly off-center."
+        ],
+        "es": [
+          "Corregimos que las cuentas \"Explorar sin tarjeta\" se comportaran como cuentas Classic completas, incluyendo mostrar el aviso de \"Activar tarjeta\" pensado para quien sí tiene una.",
+          "Corregimos que el botón de desbloqueo biométrico no volviera tras reverificarte con un código de email/SMS — antes solo se recuperaba tras un desbloqueo con contraseña.",
+          "Las pantallas de Activación Smart ahora muestran una barra de progreso real paso a paso en la cabecera, en lugar de solo el texto \"paso X de Y\".",
+          "Corregimos que el límite de intentos de inicio de sesión se pudiera reiniciar borrando los datos de la app — ahora está protegido frente a eso.",
+          "Las transacciones de Swap ahora se muestran claramente como \"Swap\" en tu lista de Actividad y en el detalle de la transacción, con el proveedor y la moneda de destino — en lugar de parecer un envío normal.",
+          "Mejoramos la accesibilidad: los campos de importe de Enviar, Swap y Comprar ahora están correctamente etiquetados para lectores de pantalla.",
+          "Corregimos que la animación de carga en las pantallas de proceso de Enviar, Swap y Comprar se mostrara completamente en blanco en Android.",
+          "Corregimos que las casillas de introducción del código de inicio de sesión estuvieran ligeramente descentradas."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 59,
       "commit": "14452a5d755fe93813b5edb9bf2a9fb38d641dc2",
       "date": "2026-09-22",
