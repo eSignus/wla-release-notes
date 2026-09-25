@@ -11,6 +11,28 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 61,
+      "commit": "2d5de8197ba402f04de80331494a4670b0a805c8",
+      "date": "2026-09-25",
+      "notes": {
+        "en": [
+          "Added Earn: supply ETH or ETH-based tokens to AAVE or Yo.xyz right from the app and start earning, then withdraw whenever you want — signed with your card, the same way you send a transaction.",
+          "Your wallet and token screens now show your balance as \"Available\" and \"In Earn\" separately, so you always know what you can still spend.",
+          "Sending a transaction now has one more step before anything happens on-chain: review the transaction and its signed data, then confirm or cancel it.",
+          "If you close the app right after signing a send, it now shows as \"Signed - pending broadcast\" in your activity until you come back and confirm it.",
+          "Added a way to hide a transaction that's stuck showing as pending in your activity list."
+        ],
+        "es": [
+          "Añadimos Earn: deposita ETH o tokens basados en ETH en AAVE o Yo.xyz directamente desde la app y empieza a generar rendimiento, y retíralo cuando quieras — firmado con tu tarjeta, igual que al enviar una transacción.",
+          "Tus pantallas de monedero y token ahora muestran el saldo como \"Disponible\" y \"En Earn\" por separado, para que siempre sepas cuánto puedes seguir gastando.",
+          "Enviar una transacción ahora tiene un paso más antes de que ocurra nada en la cadena: revisa la transacción y sus datos firmados, y luego confírmala o cancélala.",
+          "Si cierras la app justo después de firmar un envío, ahora aparece como \"Firmada - pendiente de transmitir\" en tu actividad hasta que vuelvas y la confirmes.",
+          "Añadimos una forma de ocultar una transacción que se queda atascada mostrándose como pendiente en tu lista de actividad."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 60,
       "commit": "337c066ed215bca3eb2e2cc813b54c0affe9ca84",
       "date": "2026-09-23",
