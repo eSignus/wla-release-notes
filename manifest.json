@@ -11,6 +11,26 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 63,
+      "commit": "f6ffad061abedee3990ef0391e27742d74ef9024",
+      "date": "2026-09-29",
+      "notes": {
+        "en": [
+          "QUBIC sends now track their transaction's exact validity window: you see live confirmation progress, and a transaction that isn't included in time now shows as \"Failed\" in your activity — instead of staying stuck on \"Pending\" forever — with the option to sign it again using a longer window.",
+          "Added a \"Confirmation window\" setting for QUBIC sends — adjustable before you send, with an explanation of what it does.",
+          "Sending QUBIC token shares to QX is now a fully working transaction — tracked from the QUBIC wallet's pending activity, with its fee shown in whole QUBIC.",
+          "Ethereum transaction verification now shows the network's own decode of the signed transaction and automatically checks it matches what you entered, flagging a mismatch before you confirm. Also fixed the \"Open external decoder\" button not appearing."
+        ],
+        "es": [
+          "Los envíos de QUBIC ahora controlan la ventana exacta de validez de la transacción: ves el progreso de confirmación en tiempo real, y una transacción que no se incluye a tiempo ahora aparece como \"Fallida\" en tu actividad —en lugar de quedarse atascada en \"Pendiente\" para siempre— con la opción de volver a firmarla usando una ventana más amplia.",
+          "Añadimos un ajuste de \"Ventana de confirmación\" para los envíos de QUBIC, configurable antes de enviar, con una explicación de para qué sirve.",
+          "Enviar acciones de token QUBIC a QX ya es una transacción totalmente funcional: se sigue desde la actividad pendiente del monedero de QUBIC, con su comisión mostrada en QUBIC enteros.",
+          "La verificación de transacciones de Ethereum ahora muestra la propia decodificación de la red de la transacción firmada y comprueba automáticamente que coincide con lo que introdujiste, avisándote de cualquier discrepancia antes de confirmar. También corregimos que el botón \"Abrir decodificador externo\" no apareciera."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 62,
       "commit": "79bf055387668536d6b539ebbdb348fa5315fa03",
       "date": "2026-09-28",
