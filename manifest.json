@@ -11,6 +11,28 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 62,
+      "commit": "79bf055387668536d6b539ebbdb348fa5315fa03",
+      "date": "2026-09-28",
+      "notes": {
+        "en": [
+          "Added Qearn for QUBIC: lock QUBIC to earn rewards, track your locked balance and rewards right on the wallet screen, and unlock whenever you're ready — signed with your card, the same way you send a transaction.",
+          "Fixed a crash that could occur on the loading shimmer shown while balances are still loading.",
+          "Fixed a crash that could occur during some card (NFC) operations when the card's response came back in an unexpected shape.",
+          "Fixed the wallet screen's \"Token holding\" tab label wrapping onto two lines instead of staying on one.",
+          "Improved accessibility labels on amount entry fields for screen reader users."
+        ],
+        "es": [
+          "Añadimos Qearn para QUBIC: bloquea QUBIC para generar recompensas, consulta tu saldo bloqueado y tus recompensas directamente en la pantalla del monedero, y desbloquéalo cuando quieras — firmado con tu tarjeta, igual que al enviar una transacción.",
+          "Corregimos un fallo que podía ocurrir en la animación de carga que se muestra mientras se cargan los saldos.",
+          "Corregimos un fallo que podía ocurrir durante algunas operaciones con la tarjeta (NFC) cuando la respuesta de la tarjeta llegaba con un formato inesperado.",
+          "Corregimos que la etiqueta de la pestaña \"Tenencia de tokens\" en la pantalla del monedero se partiera en dos líneas en lugar de mantenerse en una sola.",
+          "Mejoramos las etiquetas de accesibilidad en los campos de introducción de importe para usuarios de lectores de pantalla."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 61,
       "commit": "2d5de8197ba402f04de80331494a4670b0a805c8",
       "date": "2026-09-25",
