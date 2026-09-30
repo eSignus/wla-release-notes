@@ -11,6 +11,26 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 64,
+      "commit": "c4e57ff9088c07d65b12229de1579cf36887e136",
+      "date": "2026-09-30",
+      "notes": {
+        "en": [
+          "Added custom derivation paths for Bitcoin-based coins (BTC, LTC, DGB, RVN, ZEC): enter an account-level path when adding a custom wallet, and the app signs using that wallet's own path.",
+          "The app now recognizes when a derivation path or key would create a wallet you already have, and blocks it with a message naming the existing wallet instead of adding a duplicate.",
+          "Tapping a transaction's block-explorer link now opens it in an in-app browser instead of leaving the app.",
+          "The automatic check that verifies a signed transaction's destination and amount before you confirm a send now covers about 18 more networks beyond Ethereum, including Arbitrum, Avalanche, BNB Chain, Polygon, Base and Optimism."
+        ],
+        "es": [
+          "Añadimos rutas de derivación personalizadas para monedas basadas en Bitcoin (BTC, LTC, DGB, RVN, ZEC): introduce una ruta a nivel de cuenta al añadir un monedero personalizado, y la app firma usando la ruta propia de ese monedero.",
+          "La app ahora detecta cuando una ruta de derivación o clave crearía un monedero que ya tienes, y lo bloquea con un mensaje que indica el monedero existente en lugar de añadir uno duplicado.",
+          "Al tocar el enlace al explorador de bloques de una transacción, ahora se abre en un navegador dentro de la app en lugar de salir de ella.",
+          "La comprobación automática que verifica el destino y el importe de una transacción firmada antes de confirmar un envío ahora cubre unas 18 redes más además de Ethereum, incluyendo Arbitrum, Avalanche, BNB Chain, Polygon, Base y Optimism."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 63,
       "commit": "f6ffad061abedee3990ef0391e27742d74ef9024",
       "date": "2026-09-29",
