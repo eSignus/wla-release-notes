@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 65,
+      "commit": "71a3ae6b57581746c50182ef86f8086aade4a665",
+      "date": "2026-10-01",
+      "notes": {
+        "en": [
+          "Extended the automatic verification shown when confirming a send (checking the signed transaction's destination and amount) to 17 more networks, including TRON, Solana, XRP, Stellar, Cosmos, NEAR, Filecoin, TON and Hedera.",
+          "Fixed a recovered seed jumping to the end of your seed list instead of staying in the position you'd moved it to.",
+          "Fixed transaction and balance screens showing fiat amounts with a hardcoded \"$\" instead of your selected currency's symbol.",
+          "Fixed the Android back button during an in-progress send, buy, swap or earn transaction, which could let the same transaction be confirmed and sent twice.",
+          "Fixed Settings → Seeds showing different balances than My Crypto for the same seed or card, and a card's balance briefly showing under the wrong currency symbol right after switching currencies.",
+          "Improved manually imported tokens: ones with no catalog entry now get a fiat value and price chart using their own stored ID, and one whose decimal precision can't be determined is refused instead of risking the wrong amount.",
+          "Fixed opening some tokens (like USDC on Solana) from certain screens landing on the wrong wallet and showing the chain's name and icon instead of the token's; a token with no icon of its own now shows its initial instead of a blank circle.",
+          "Fixed a transaction's network fee being labeled and priced in the token you sent instead of the coin actually used to pay it — e.g. a USDT transfer's fee now correctly shows in ETH."
+        ],
+        "es": [
+          "Ampliamos la verificación automática que se muestra al confirmar un envío (que comprueba el destino y el importe de la transacción firmada) a 17 redes más, incluyendo TRON, Solana, XRP, Stellar, Cosmos, NEAR, Filecoin, TON y Hedera.",
+          "Corregimos que una semilla recuperada saltara al final de tu lista de semillas en lugar de mantenerse en la posición a la que la habías movido.",
+          "Corregimos que las pantallas de transacciones y saldos mostraran importes en moneda fiduciaria con un \"$\" fijo en lugar del símbolo de tu moneda seleccionada.",
+          "Corregimos el botón de retroceso de Android durante un envío, compra, intercambio o depósito en Earn en curso, que podía permitir confirmar y enviar la misma transacción dos veces.",
+          "Corregimos que Ajustes → Semillas mostrara saldos distintos a los de Mi Cripto para la misma semilla o tarjeta, y que el saldo de una tarjeta apareciera brevemente con el símbolo de moneda incorrecto justo después de cambiar de moneda.",
+          "Mejoramos los tokens importados manualmente: los que no tienen entrada en el catálogo ahora obtienen un valor en moneda fiduciaria y un gráfico de precio usando su propio ID guardado, y uno cuya precisión decimal no se puede determinar se rechaza en lugar de arriesgarse a mostrar un importe incorrecto.",
+          "Corregimos que algunos tokens (como USDC en Solana) abiertos desde ciertas pantallas llevaran al monedero equivocado y mostraran el nombre e icono de la cadena en lugar de los del token; un token sin icono propio ahora muestra su inicial en lugar de un círculo vacío.",
+          "Corregimos que la comisión de red de una transacción se etiquetara y valorara en el token enviado en lugar de en la moneda realmente usada para pagarla — por ejemplo, la comisión de una transferencia de USDT ahora se muestra correctamente en ETH."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 64,
       "commit": "c4e57ff9088c07d65b12229de1579cf36887e136",
       "date": "2026-09-30",
