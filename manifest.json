@@ -11,6 +11,28 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 66,
+      "commit": "9788b660aa1cdd221bb15040784b0d86943196b1",
+      "date": "2026-10-02",
+      "notes": {
+        "en": [
+          "The automatic verification shown when confirming a send (checking the signed transaction's destination and amount) now covers the remaining supported networks — Bitcoin and other UTXO-based coins (LTC, BCH, DASH, DGB, DOGE, RVN, DCR, ZEC, KAS) and QUBIC — completing coverage across every network this check supports.",
+          "Improved the reliability of the automatic inactivity lock so time spent with the device asleep is measured correctly, even if the device's clock was changed.",
+          "Fixed seed and card balances incorrectly showing as \"$0\" when the real figure isn't known yet — they now show \"—\" instead.",
+          "A newly imported or priced token's fiat value now updates right away instead of waiting for the next background refresh.",
+          "Fixed a transaction fee occasionally being priced at the wrong coin's rate for a token with no recorded network."
+        ],
+        "es": [
+          "La verificación automática que se muestra al confirmar un envío (que comprueba el destino y el importe de la transacción firmada) ahora cubre las redes restantes — Bitcoin y otras monedas basadas en UTXO (LTC, BCH, DASH, DGB, DOGE, RVN, DCR, ZEC, KAS) y QUBIC — completando la cobertura en todas las redes que admite esta comprobación.",
+          "Mejoramos la fiabilidad del bloqueo automático por inactividad, para que el tiempo con el dispositivo dormido se mida correctamente incluso si se cambió el reloj del dispositivo.",
+          "Corregimos que los saldos de semillas y tarjetas mostraran \"$0\" cuando el importe real aún no se conoce — ahora muestran \"—\" en su lugar.",
+          "El valor en moneda fiduciaria de un token recién importado o valorado ahora se actualiza de inmediato en lugar de esperar a la siguiente actualización en segundo plano.",
+          "Corregimos que la comisión de una transacción a veces se valorara al tipo de cambio equivocado para un token sin red registrada."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 65,
       "commit": "71a3ae6b57581746c50182ef86f8086aade4a665",
       "date": "2026-10-01",
