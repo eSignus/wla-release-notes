@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 67,
+      "commit": "86e3d20864070e5d22944cf84eb27823316a1525",
+      "date": "2026-10-05",
+      "notes": {
+        "en": [
+          "The automatic verification shown before confirming a send now also checks TOKEN transfers, not just native coin sends, across TRON, Solana, Stellar, Hedera, QUBIC and the Ethereum-family, Klaytn and XDC networks.",
+          "Fixed network fee totals showing long floating-point noise (e.g. \"2.3345000000000000005 KAS\") instead of a clean figure.",
+          "Added UTXO compounding for Kaspa (KAS): merge a wallet's scattered UTXOs into one, signed and sent like an ordinary transaction.",
+          "Fixed a signed token transaction sometimes being flagged as a mismatch only after reopening the app, even though nothing about the transaction had changed.",
+          "Fixed deleting a wallet not always removing tokens that had been recovered onto it (for example, from a cloud or backup restore) — the confirmation dialog now also states how many tokens will be removed.",
+          "Turned off the \"Enable notifications\" onboarding prompt, since push notifications aren't available in the app yet.",
+          "Signed-but-not-yet-broadcast transactions now also appear at the top of the portfolio-wide Activity tab, not just on their own wallet or token screen.",
+          "A wallet that already has funds supplied to Earn keeps its Earn tab and the ability to withdraw, even if that token or tenant no longer offers new Earn deposits — only the option to supply more is hidden."
+        ],
+        "es": [
+          "La verificación automática que se muestra antes de confirmar un envío ahora también comprueba las transferencias de TOKENS, no solo los envíos de la moneda nativa, en TRON, Solana, Stellar, Hedera, QUBIC y las redes de la familia Ethereum, Klaytn y XDC.",
+          "Corregimos que los totales de comisión de red mostraran ruido decimal largo (por ejemplo, \"2.3345000000000000005 KAS\") en lugar de una cifra limpia.",
+          "Añadimos la fusión de UTXOs para Kaspa (KAS): combina los UTXOs dispersos de un monedero en uno solo, firmado y enviado como una transacción normal.",
+          "Corregimos que una transacción de token firmada a veces se marcara como no coincidente solo después de reabrir la app, aunque nada de la transacción hubiera cambiado.",
+          "Corregimos que al eliminar un monedero no siempre se eliminaran los tokens que se habían recuperado en él (por ejemplo, desde una recuperación en la nube o una restauración de copia de seguridad); el diálogo de confirmación ahora también indica cuántos tokens se eliminarán.",
+          "Desactivamos el aviso de \"Activar notificaciones\" en la incorporación, ya que las notificaciones push aún no están disponibles en la app.",
+          "Las transacciones firmadas pero aún no transmitidas ahora también aparecen en la parte superior de la pestaña de Actividad de todo el portafolio, no solo en la pantalla de su propio monedero o token.",
+          "Un monedero que ya tiene fondos depositados en Earn conserva su pestaña de Earn y la posibilidad de retirarlos, aunque ese token o entidad ya no ofrezca nuevos depósitos en Earn — solo se oculta la opción de depositar más."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 66,
       "commit": "9788b660aa1cdd221bb15040784b0d86943196b1",
       "date": "2026-10-02",
