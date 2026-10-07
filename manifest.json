@@ -11,6 +11,32 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 69,
+      "commit": "b2bba4abe446ce8914607e77cd4d37f81e4b0549",
+      "date": "2026-10-07",
+      "notes": {
+        "en": [
+          "Removed the old (.EHW) backup file format — a file it could import before silently reported success while importing nothing; it's now refused with a clear error instead. Classic account sign-up also no longer creates a leftover backup file encrypted with your new unlock password as a side effect of setting it up.",
+          "Fixed passphrase handling for your card: typing one now clearly requires standard letters, numbers and symbols, while a passphrase recovered from a card set up by another app can sign again instead of being refused.",
+          "\"Store seedphrase locally\" now works everywhere it's offered — Send, Swap, Earn, Qearn and the backup export — instead of only when creating a wallet, where it previously asked you to re-enter it every time.",
+          "Fixed several screens (creating or renaming a seed, hiding a wallet from Manage tokens) showing raw internal error text on failure — they now show a plain error message instead.",
+          "Fixed several screens still showing placeholder data: the virtual-card list header now shows your real account name, \"Order a physical card\" opens the right shop for your account (it previously sent some tenants to the wrong brand's shop), the search icon in Search crypto now focuses the field, an unnamed card shows \"Card\" instead of a placeholder name, and a transaction opened from a notification no longer offers a fee-edit button that led nowhere.",
+          "Simplified wallet balances: Earn and Qearn no longer split a wallet's balance into \"Available\" and \"In Earn\"/\"Locked\" — every screen now shows the same available (spendable) balance as any other wallet, with the supplied or locked amount shown only in the Earn tab.",
+          "Fixed the \"Update\" button on the mandatory-update screen (iOS) doing nothing useful — it now opens your account's TestFlight page directly."
+        ],
+        "es": [
+          "Eliminamos el formato de archivo de copia de seguridad antiguo (.EHW): antes, al importarlo, informaba de un éxito silencioso sin importar nada; ahora se rechaza con un error claro. El registro de una cuenta Classic tampoco crea ya, como efecto secundario de configurar tu contraseña de desbloqueo, un archivo de copia de seguridad sobrante cifrado con esa misma contraseña.",
+          "Corregimos el manejo de la contraseña de la tarjeta: al escribirla ahora se exige claramente que use letras, números y símbolos estándar, mientras que una contraseña recuperada de una tarjeta configurada por otra app ya puede volver a firmar en lugar de ser rechazada.",
+          "\"Guardar frase semilla localmente\" ahora funciona en todos los sitios donde se ofrece —Enviar, Intercambiar, Earn, Qearn y la exportación de copia de seguridad— en lugar de solo al crear un monedero, donde antes pedía volver a introducirla cada vez.",
+          "Corregimos que varias pantallas (crear o renombrar una semilla, ocultar un monedero desde Gestionar tokens) mostraran texto de error interno en bruto al fallar; ahora muestran un mensaje de error sencillo.",
+          "Corregimos varias pantallas que aún mostraban datos de marcador de posición: la cabecera de la lista de tarjetas virtuales ahora muestra tu nombre de cuenta real, \"Pedir una tarjeta física\" abre la tienda correcta de tu cuenta (antes enviaba a algunas entidades a la tienda de otra marca), el icono de búsqueda en Buscar cripto ahora enfoca el campo, una tarjeta sin nombre muestra \"Tarjeta\" en lugar de un nombre de marcador de posición, y una transacción abierta desde una notificación ya no ofrece un botón de editar comisión que no llevaba a ningún sitio.",
+          "Simplificamos los saldos de los monederos: Earn y Qearn ya no dividen el saldo de un monedero en \"Disponible\" y \"En Earn\"/\"Bloqueado\" — todas las pantallas ahora muestran el mismo saldo disponible (gastable) que cualquier otro monedero, y el importe depositado o bloqueado se muestra solo en la pestaña Earn.",
+          "Corregimos que el botón \"Actualizar\" de la pantalla de actualización obligatoria (iOS) no hiciera nada útil; ahora abre directamente la página de TestFlight de tu cuenta."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 68,
       "commit": "df5d43126b0180ec3a8e62a81c75218ad95e1011",
       "date": "2026-10-06",
