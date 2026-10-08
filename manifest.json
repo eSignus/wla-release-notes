@@ -11,6 +11,32 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 70,
+      "commit": "cc38f5e1a30262cf2749e28f803b9bcc1c29ca02",
+      "date": "2026-10-08",
+      "notes": {
+        "en": [
+          "Redesigned Settings → Cards, with a new menu for each card: who it belongs to, its role (Smart or Classic), requesting a backup card, and — for Classic accounts — exporting and importing a backup file and deleting a saved card password.",
+          "You can now hide a card: it disappears from My Crypto and its transactions from the Activity tab, and you can show it again from Settings → Cards.",
+          "Deleting a card now has its own screen that explains what you lose and asks you to confirm you have moved your funds before the final confirmation.",
+          "Classic accounts now call the card's secret a \"card password\" everywhere, and importing a seed explains that its BIP39 passphrase also becomes the card password.",
+          "Diagnostics are now off until you agree to share them. \"Share diagnostics\" really turns them on, and Settings → User statistics shows whether you are sharing and lets you stop at any time.",
+          "Qearn: \"Unlock\" is now disabled, with an explanation, while the app cannot confirm that the lock is not already being unlocked — so you can't pay the unlock fee twice. The Earn tab of a hidden QUBIC wallet also loads on its own instead of waiting for a pull to refresh.",
+          "The tab selector on wallet and token screens now slides smoothly to the selected tab, including when you come back from an Earn or Qearn flow."
+        ],
+        "es": [
+          "Rediseño de Configuración → Tarjetas, con un menú nuevo para cada tarjeta: a quién pertenece, su función (Smart o Classic), pedir una tarjeta de respaldo y, en cuentas Classic, exportar e importar un archivo de copia de seguridad y borrar una contraseña de tarjeta guardada.",
+          "Ahora puedes ocultar una tarjeta: desaparece de My Crypto y sus transacciones de la pestaña Actividad, y puedes volver a mostrarla desde Configuración → Tarjetas.",
+          "Eliminar una tarjeta tiene ahora su propia pantalla, que explica lo que pierdes y te pide confirmar que has movido tus fondos antes de la confirmación final.",
+          "Las cuentas Classic llaman ahora \"contraseña de la tarjeta\" al secreto de la tarjeta en toda la app, y al importar una semilla se explica que su passphrase BIP39 pasa a ser también la contraseña de la tarjeta.",
+          "El envío de diagnósticos está ahora desactivado hasta que aceptes compartirlos. \"Compartir diagnósticos\" lo activa de verdad, y Configuración → Estadísticas de usuario muestra si los estás compartiendo y te permite dejar de hacerlo cuando quieras.",
+          "Qearn: \"Desbloquear\" aparece desactivado, con una explicación, mientras la app no puede confirmar que ese bloqueo no se está desbloqueando ya, para que no pagues dos veces la comisión. Además, la pestaña Earn de un wallet QUBIC oculto se carga sola, sin tener que deslizar para actualizar.",
+          "El selector de pestañas de las pantallas de wallet y de token se desliza ahora con suavidad hasta la pestaña elegida, también al volver de un flujo de Earn o Qearn."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 69,
       "commit": "b2bba4abe446ce8914607e77cd4d37f81e4b0549",
       "date": "2026-10-07",
