@@ -11,6 +11,26 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 71,
+      "commit": "bf32b15ee68f21982fb30957a3975dca9446eb79",
+      "date": "2026-10-09",
+      "notes": {
+        "en": [
+          "Added a \"Card health\" check (Settings → a card → Card health): scan your card to see whether it's working properly — Operational, Pending activation, Empty, Damaged, a slow connection, or a failed scan — along with technical details like its applet version and card ID.",
+          "Added a \"How to scan my card\" help screen with step-by-step, device-specific guidance on where to hold your card against your phone.",
+          "Reworded the screens for setting a card passphrase/password for clarity — it's now clearer that this protects your card specifically and is separate from your app's unlock password — and simplified the \"save on this device\" option.",
+          "Fixed the coin catalogue (used to recognize coins and tokens) being re-downloaded every time you unlocked the app, even right after it had just finished downloading — it's now fetched once per app session."
+        ],
+        "es": [
+          "Añadimos una comprobación de \"Salud de la tarjeta\" (Ajustes → una tarjeta → Salud de la tarjeta): escanea tu tarjeta para ver si funciona correctamente — Operativa, Pendiente de activación, Vacía, Dañada, conexión lenta o escaneo fallido — junto con datos técnicos como la versión del applet y el ID de la tarjeta.",
+          "Añadimos una pantalla de ayuda \"Cómo escanear mi tarjeta\" con instrucciones paso a paso, específicas para tu dispositivo, sobre dónde colocar la tarjeta en tu teléfono.",
+          "Reescribimos las pantallas para establecer la contraseña/frase semilla de la tarjeta, dejando más claro que protege específicamente tu tarjeta y es independiente de la contraseña de desbloqueo de la app, y simplificamos la opción de \"guardar en este dispositivo\".",
+          "Corregimos que el catálogo de monedas (usado para reconocer monedas y tokens) se volviera a descargar cada vez que desbloqueabas la app, incluso justo después de haber terminado de descargarse — ahora se obtiene una sola vez por sesión de la app."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 70,
       "commit": "cc38f5e1a30262cf2749e28f803b9bcc1c29ca02",
       "date": "2026-10-08",
