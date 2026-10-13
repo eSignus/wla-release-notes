@@ -11,6 +11,24 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 72,
+      "commit": "315cede949b5502d22e1341a1ab7425e0f5aab90",
+      "date": "2026-10-13",
+      "notes": {
+        "en": [
+          "Settings → \"About this version\" now shows your last 3 updates instead of just the latest one, so you don't miss what changed if you haven't checked in a while.",
+          "Swap deposits now have the same review step Send transactions do: after signing, you can review the transaction before it's broadcast, and the app re-checks that the exchange is still open before sending your deposit.",
+          "WalletConnect transaction signing now verifies that what gets broadcast exactly matches what the connected app asked you to sign, respects that request's own time limit, and fixes a bug where a wallet could sometimes be confused with another one sharing the same address (e.g. ETH and BNB)."
+        ],
+        "es": [
+          "Ajustes → \"Acerca de esta versión\" ahora muestra tus últimas 3 actualizaciones en lugar de solo la más reciente, para que no te pierdas los cambios si llevas un tiempo sin consultarla.",
+          "Los depósitos de Swap ahora tienen el mismo paso de revisión que las transacciones de Enviar: tras firmar, puedes revisar la transacción antes de que se transmita, y la app vuelve a comprobar que el intercambio sigue abierto antes de enviar tu depósito.",
+          "La firma de transacciones por WalletConnect ahora verifica que lo que se transmite coincide exactamente con lo que la app conectada te pidió firmar, respeta el límite de tiempo propio de esa solicitud, y corrige un fallo por el que un monedero podía confundirse con otro que comparte la misma dirección (por ejemplo, ETH y BNB)."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 71,
       "commit": "bf32b15ee68f21982fb30957a3975dca9446eb79",
       "date": "2026-10-09",
