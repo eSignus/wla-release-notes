@@ -11,6 +11,20 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 73,
+      "commit": "fdee2387b24f827623c60c9c52eb594ab5873a97",
+      "date": "2026-10-14",
+      "notes": {
+        "en": [
+          "This update focused on internal reliability, logging and code-quality improvements — nothing user-facing changed in this release."
+        ],
+        "es": [
+          "Esta actualización se centró en mejoras internas de fiabilidad, registro y calidad de código — no hay cambios visibles para el usuario en esta versión."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 72,
       "commit": "315cede949b5502d22e1341a1ab7425e0f5aab90",
       "date": "2026-10-13",
