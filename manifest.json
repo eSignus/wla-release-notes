@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 74,
+      "commit": "310d00ccfb93b7647a290f6fc0d1cc90f8db26cf",
+      "date": "2026-10-15",
+      "notes": {
+        "en": [
+          "Simplified the transaction review step: a signed transaction is no longer saved on your device before you confirm it, so closing the app before confirming simply cancels the send instead of reopening it later.",
+          "Fixed a saved card password with a leading or trailing space being stored without it, which made the card refuse it on every later signature.",
+          "Fixed WalletConnect requests sometimes being approved or signed after their own time limit had already passed, and the transaction review screen now also shows the QUBIC transaction type.",
+          "Fixed Earn's Max withdraw sometimes using a slightly rounded amount instead of your position's exact balance.",
+          "Fixed Swap occasionally opening the exchange for a different amount than the one you were quoted.",
+          "Restoring a portfolio backup file now also restores a token's price-tracking identifier, so a restored token can be priced right away.",
+          "Fixed a background balance sync issue that could leave your Earn or Qearn balance briefly showing as zero, or skip refreshing other wallets, after one position failed to update.",
+          "Fixed \"Hide transaction\" occasionally showing a failure message for a transaction that had actually been hidden successfully."
+        ],
+        "es": [
+          "Simplificamos el paso de revisión de transacciones: una transacción firmada ya no se guarda en tu dispositivo antes de confirmarla, así que cerrar la app antes de confirmar simplemente cancela el envío en lugar de volver a abrirlo más tarde.",
+          "Corregimos que una contraseña de tarjeta guardada con un espacio al principio o al final se almacenara sin él, lo que hacía que la tarjeta la rechazara en cada firma posterior.",
+          "Corregimos que algunas solicitudes de WalletConnect se pudieran aprobar o firmar después de que su propio límite de tiempo ya hubiera pasado, y la pantalla de revisión de la transacción ahora también muestra el tipo de transacción QUBIC.",
+          "Corregimos que el retiro máximo de Earn usara a veces un importe ligeramente redondeado en lugar del saldo exacto de tu posición.",
+          "Corregimos que Swap abriera a veces el intercambio por un importe distinto al que se te había cotizado.",
+          "Restaurar un archivo de copia de seguridad del portafolio ahora también restaura el identificador de seguimiento de precio de un token, para que un token restaurado pueda valorarse de inmediato.",
+          "Corregimos un problema en la sincronización en segundo plano que podía mostrar tu saldo de Earn o Qearn como cero durante un momento, o dejar de actualizar otros wallets, tras fallar la actualización de una sola posición.",
+          "Corregimos que \"Ocultar transacción\" mostrara a veces un mensaje de error para una transacción que en realidad se había ocultado correctamente."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 73,
       "commit": "fdee2387b24f827623c60c9c52eb594ab5873a97",
       "date": "2026-10-14",
