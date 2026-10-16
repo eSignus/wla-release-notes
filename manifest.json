@@ -11,6 +11,26 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 75,
+      "commit": "dcba5504bdb80a303643c85bf8e26bb0fa6be325",
+      "date": "2026-10-16",
+      "notes": {
+        "en": [
+          "Activity now shows each transaction's real confirmation state — Pending, Confirmed, Failed or Not confirmed — timed to each coin's own typical confirmation window, and a failed transaction offers \"Try again\", prepared from your wallet's current balance and fee.",
+          "A token's Activity tab now loads older transactions as you scroll, the same way its wallet's own screen already does.",
+          "Swap now checks that the coin you're quoted, the wallet you're sending from and the one the card signs all genuinely match, limits destination coins to the ones your account actually supports, and shows each wallet's network badge consistently everywhere you pick one to swap from.",
+          "The \"Hide transaction\" option is temporarily off a pending transaction's detail screen while we build a better way to manage transactions that get stuck or replaced — such a transaction now simply stays visible as Pending."
+        ],
+        "es": [
+          "Actividad ahora muestra el estado real de confirmación de cada transacción — Pendiente, Confirmada, Fallida o No confirmada — con un tiempo de espera ajustado al habitual de cada moneda, y una transacción fallida ofrece \"Intentar de nuevo\", preparada con el saldo y la comisión actuales de tu wallet.",
+          "La pestaña Actividad de un token ahora carga transacciones anteriores al desplazarte, igual que ya hace la pantalla de su propio wallet.",
+          "Swap ahora comprueba que la moneda cotizada, el wallet de origen y el que firma la tarjeta coincidan de verdad, limita las monedas de destino a las que tu cuenta realmente admite, y muestra el distintivo de red de cada wallet de forma consistente en todos los selectores de Swap.",
+          "La opción \"Ocultar transacción\" está temporalmente desactivada en el detalle de una transacción pendiente mientras preparamos una forma mejor de gestionar las transacciones atascadas o sustituidas; ahora esa transacción simplemente permanece visible como Pendiente."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 74,
       "commit": "310d00ccfb93b7647a290f6fc0d1cc90f8db26cf",
       "date": "2026-10-15",
