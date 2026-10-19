@@ -11,6 +11,36 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 76,
+      "commit": "9b70d968c4c7a4bb897186ab9f4373bf5866d6ce",
+      "date": "2026-10-19",
+      "notes": {
+        "en": [
+          "Email and SMS verification codes are tracked more precisely everywhere you enter one — sign-in, sign-up, email updates and account recovery: a network hiccup, a typo on a different screen, or an attempt already cleared by a correct code no longer counts against your remaining tries, a resend that doesn't go through now says so instead of reporting success, and confirming an account or a new email address works even when that code was already used once.",
+          "Links to Terms, Privacy, FAQ, Support, and ordering or buying a card now open reliably on Android.",
+          "Your recovery words, card passphrase and card password are now shielded from keyboard autocorrect, autocomplete and spelling suggestions, and kept out of screenshots, screen recordings and the app-switcher preview.",
+          "Reinstalling the app on iOS now starts completely fresh — it no longer carries over a previous install's unlock password or fingerprint/Face ID enrollment.",
+          "A Classic or Virtual account can no longer end up with no way back in except signing out and clearing your data: turning off your password or your last biometric method is now guarded, and a locked-out Classic account can use its card to set a new one.",
+          "WalletConnect now signs only with the exact account a session was approved for, always disconnects the previous account's sessions before a new one is shown, and refuses a QUBIC request it would otherwise have to guess at.",
+          "On chains we can verify, \"Confirm and send\" now waits for an automatic check of your signed transaction before it broadcasts, with the option to retry the check if it doesn't come back in time; and if a broadcast's outcome can't be confirmed, Send and Swap point you to your Activity list instead of offering to send it again.",
+          "Google and Apple sign-in links are now redeemed only by the sign-in that actually requested them, so a code meant for a different session can no longer sign in or switch accounts on your device.",
+          "Background balance updates are now more careful about wallets you create, rename, hide or discover while an update is still in progress."
+        ],
+        "es": [
+          "Los códigos de verificación por email y SMS se registran ahora con más precisión en todas partes donde los introduces — inicio de sesión, registro, actualización de email y recuperación de cuenta: un fallo de red, una errata en otra pantalla o un intento ya resuelto por un código correcto ya no cuentan contra tus intentos restantes, un reenvío que no llega ahora te lo indica en vez de darlo por enviado, y confirmar una cuenta o un email nuevo funciona incluso si ese código ya se había usado una vez.",
+          "Los enlaces a Términos, Privacidad, FAQ, Soporte y pedir o comprar una tarjeta ahora se abren de forma fiable en Android.",
+          "Tus palabras de recuperación, la passphrase de la tarjeta y la contraseña de la tarjeta están ahora protegidas frente al autocorrector, autocompletado y sugerencias del teclado, y quedan fuera de capturas de pantalla, grabaciones de pantalla y la vista previa del selector de apps.",
+          "Reinstalar la app en iOS empieza ahora completamente de cero: ya no hereda la contraseña de desbloqueo ni la huella/Face ID de una instalación anterior.",
+          "Una cuenta Classic o Virtual ya no puede quedarse sin ninguna forma de volver a entrar salvo cerrar sesión y borrar los datos: desactivar tu contraseña o tu último método biométrico está ahora protegido, y una cuenta Classic bloqueada puede usar su tarjeta para establecer una contraseña nueva.",
+          "WalletConnect ahora firma únicamente con la cuenta exacta que la sesión aprobó, desconecta siempre las sesiones de la cuenta anterior antes de mostrar una nueva, y rechaza una solicitud QUBIC que de otro modo tendría que adivinar.",
+          "En las cadenas que podemos verificar, \"Confirmar y enviar\" espera ahora a una comprobación automática de tu transacción firmada antes de transmitirla, con la opción de reintentar la comprobación si no responde a tiempo; y si el resultado de una transmisión no puede confirmarse, Enviar y Swap te remiten a tu lista de Actividad en vez de ofrecerte enviarla de nuevo.",
+          "Los enlaces de inicio de sesión con Google y Apple ahora solo los canjea el inicio de sesión que realmente los pidió, de modo que un código pensado para otra sesión ya no puede iniciar sesión ni cambiar de cuenta en tu dispositivo.",
+          "Las actualizaciones de saldo en segundo plano ahora tienen más cuidado con los wallets que creas, renombras, ocultas o descubres mientras una actualización sigue en curso."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 75,
       "commit": "dcba5504bdb80a303643c85bf8e26bb0fa6be325",
       "date": "2026-10-16",
