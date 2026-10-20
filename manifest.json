@@ -11,6 +11,32 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 77,
+      "commit": "6b50f9ec4b656d6ca1d419facd6a00858cc2f5b4",
+      "date": "2026-10-20",
+      "notes": {
+        "en": [
+          "Searching for a coin in Add asset, Swap and My Crypto now ranks results by how closely they match what you typed, so an exact name or ticker always comes first.",
+          "Settings → Manage access now lets you update your account's email or phone number, each verified by scanning your card plus a code sent to your other registered contact method.",
+          "Android's device-integrity check now always goes through Build38 in release builds, so a device can no longer skip it by reporting itself as an emulator.",
+          "Compounding KAS UTXOs now checks the transaction's own output total against your balance, so the confirmation screen always reflects exactly what will be spent on fees.",
+          "Sending the Max amount now uses your balance's exact figure instead of a rounded one, so it can no longer try to send slightly more than your wallet actually holds.",
+          "Adding a wallet from a token's detail screen now asks which network to add it on, instead of creating the wrong kind of wallet.",
+          "Activating a Smart card now checks who it belongs to before resetting anything on it, so a card registered to another account — or one already set up on this device — is never erased just to find that out."
+        ],
+        "es": [
+          "Buscar una moneda en Añadir activo, Swap y Mi Cripto ahora ordena los resultados por cuánto se parecen a lo que escribiste, así que un nombre o ticker exacto siempre aparece primero.",
+          "Ajustes → Gestionar acceso te permite ahora actualizar el email o el número de teléfono de tu cuenta, cada uno verificado escaneando tu tarjeta más un código enviado a tu otro medio de contacto registrado.",
+          "La comprobación de integridad del dispositivo en Android pasa ahora siempre por Build38 en las compilaciones de producción, así que un dispositivo ya no puede saltársela haciéndose pasar por un emulador.",
+          "Compactar los UTXO de KAS ahora comprueba el total real de salidas de la transacción contra tu saldo, así que la pantalla de confirmación siempre refleja exactamente lo que se gastará en comisiones.",
+          "Enviar el importe Máximo usa ahora la cifra exacta de tu saldo en lugar de una redondeada, así que ya no puede intentar enviar algo más de lo que tu wallet realmente tiene.",
+          "Añadir un wallet desde la pantalla de detalle de un token ahora pregunta en qué red añadirlo, en vez de crear el tipo de wallet equivocado.",
+          "Activar una tarjeta Smart ahora comprueba a quién pertenece antes de resetear nada en ella, así que una tarjeta registrada en otra cuenta — o una ya configurada en este dispositivo — nunca se borra solo para averiguarlo."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 76,
       "commit": "9b70d968c4c7a4bb897186ab9f4373bf5866d6ce",
       "date": "2026-10-19",
