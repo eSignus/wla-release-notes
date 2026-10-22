@@ -11,6 +11,38 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 78,
+      "commit": "dd18611c33a6623cc944ce3e63674979e1740cf0",
+      "date": "2026-10-22",
+      "notes": {
+        "en": [
+          "WalletConnect connection requests now show every chain being granted and the site the connecting app declares itself as, run that site through a safety check (blocking ones flagged as malicious outright), and always match the pairing you actually scanned rather than any other request arriving at the same time. Multiple sign requests now queue and show one at a time instead of one replacing another unseen, and an ERC-20 approve or transfer request shows the real token, amount and recipient instead of a bare contract call.",
+          "Buy's checkout screen now only accepts a completed-purchase signal from the payment provider's own page, and provider and external-decoder links only ever open as regular web pages.",
+          "Typing an ambiguous amount — more than one decimal separator, or a figure that could be read as a thousand — is now flagged instead of silently reinterpreted, across Send, Move to QX, Earn, Qearn and Swap. Scanning or pasting a payment QR code now reduces it to the destination address and tells you if it also carried an amount, which is never applied automatically.",
+          "A Swap deposit's amount is now locked in the moment you're quoted: Max reserves the network fee up front, and the amount can no longer drift between what you were quoted and what actually gets sent.",
+          "Recovery words, your card passphrase and your card password can no longer be typed using a third-party keyboard on iOS, keeping them with the system keyboard only.",
+          "Discarding a signed transaction after copying its raw data now also clears that data from your clipboard.",
+          "Restoring a portfolio backup file now checks its size before reading it and keeps any saved label at a sane length, so a crafted or oversized file can't be used to overload the app.",
+          "Changing your balance currency more than once in quick succession now always settles on the last one you picked, and a periodic session renewal that hits a network hiccup now retries instead of leaving your session to age until your next unlock.",
+          "Redesigned the KAS \"Compound UTXOs\" flow with a clearer offer banner and icon and automatic detection once a compound confirms; Earn's native-ETH withdraw summary now labels the moved amount as WETH, matching what's actually transferred.",
+          "Activity amounts are now colour-coded and signed by direction (incoming vs. outgoing), and a wallet's tabs are now ordered Activity / Earn / Token holding to match the latest design."
+        ],
+        "es": [
+          "Las solicitudes de conexión de WalletConnect ahora muestran todas las cadenas que se conceden y el sitio que la app conectante declara ser, pasan ese sitio por una comprobación de seguridad (bloqueando directamente los marcados como maliciosos), y siempre hacen coincidir la solicitud con el emparejamiento que realmente escaneaste, en vez de con cualquier otra que llegue a la vez. Varias solicitudes de firma ahora se encolan y se muestran de una en una en vez de que una sustituya a otra sin que la veas, y una solicitud de approve o transfer de un token ERC-20 muestra el token, importe y destinatario reales en vez de una llamada a contrato sin descifrar.",
+          "La pantalla de pago de Comprar ahora solo acepta la señal de compra completada desde la propia página del proveedor de pago, y los enlaces del proveedor y del descodificador externo solo se abren como páginas web normales.",
+          "Escribir un importe ambiguo — más de un separador decimal, o una cifra que podría leerse como un millar — se señala ahora en vez de reinterpretarse en silencio, en Enviar, Mover a QX, Earn, Qearn y Swap. Escanear o pegar un código QR de pago ahora lo reduce a la dirección de destino e indica si también llevaba un importe, que nunca se aplica automáticamente.",
+          "El importe de un depósito de Swap queda ahora fijado en el momento en que recibes la cotización: Máximo reserva la comisión de red por adelantado, y el importe ya no puede variar entre lo que se cotizó y lo que realmente se envía.",
+          "Las palabras de recuperación, la passphrase de tu tarjeta y la contraseña de tu tarjeta ya no se pueden escribir con un teclado de terceros en iOS, quedando restringidas al teclado del sistema.",
+          "Descartar una transacción firmada después de copiar sus datos en bruto ahora también borra esos datos del portapapeles.",
+          "Restaurar un archivo de copia de seguridad del portafolio ahora comprueba su tamaño antes de leerlo y limita la longitud de cualquier etiqueta guardada, para que un archivo manipulado o demasiado grande no pueda sobrecargar la app.",
+          "Cambiar la moneda de tu saldo varias veces seguidas ahora siempre se queda con la última que elegiste, y una renovación periódica de sesión que se topa con un fallo de red ahora se reintenta en vez de dejar que la sesión envejezca hasta tu próximo desbloqueo.",
+          "Rediseñamos el flujo de \"Compactar UTXO\" de KAS con un banner de oferta y un icono más claros, y detección automática en cuanto se confirma una compactación; el resumen de retiro nativo de ETH en Earn ahora etiqueta el importe movido como WETH, que es lo que realmente se transfiere.",
+          "Los importes de Actividad ahora se colorean y firman según su dirección (entrante o saliente), y las pestañas de un wallet se ordenan ahora como Actividad / Earn / Tenencia de tokens, según el diseño más reciente."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 77,
       "commit": "6b50f9ec4b656d6ca1d419facd6a00858cc2f5b4",
       "date": "2026-10-20",
