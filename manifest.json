@@ -11,6 +11,28 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 79,
+      "commit": "c232c4be7f5849313784362433031d4007ad1c28",
+      "date": "2026-10-23",
+      "notes": {
+        "en": [
+          "Redesigned the transaction verification screen with a simpler layout, and added a dedicated screen for when a signed transaction can't be verified, offering to try again or cancel.",
+          "On Bitcoin-style coins (BTC, LTC, BCH, KAS, DASH, DGB, DOGE, DCR, ZEC, RVN), the automatic pre-broadcast check now also confirms the real network fee matches what you were shown and that none of your balance goes anywhere except your destination or your own change address.",
+          "Unlocking after your session has been away for a while now tells you to check your connection if a token renewal can't complete, instead of leaving the screen to do nothing.",
+          "Android now excludes all app data from cloud backup and device-to-device transfer, so setting up a new phone always starts with a clean install and recovers your seeds and portfolio through the app's own recovery routes.",
+          "A token's Activity / Earn tabs now use the same compact tab design as a wallet's."
+        ],
+        "es": [
+          "Rediseñamos la pantalla de verificación de transacciones con un diseño más sencillo, y añadimos una pantalla dedicada para cuando una transacción firmada no se puede verificar, con la opción de reintentarlo o cancelar.",
+          "En monedas de tipo Bitcoin (BTC, LTC, BCH, KAS, DASH, DGB, DOGE, DCR, ZEC, RVN), la comprobación automática previa al envío ahora también confirma que la comisión de red real coincide con la que viste y que tu saldo no va a ningún sitio salvo al destino o a tu propia dirección de cambio.",
+          "Desbloquear la app tras un tiempo sin usarla ahora te avisa de que revises tu conexión si la renovación de sesión no puede completarse, en vez de dejar la pantalla sin hacer nada.",
+          "Android ahora excluye todos los datos de la app de la copia de seguridad en la nube y de la transferencia entre dispositivos, para que configurar un teléfono nuevo empiece siempre con una instalación limpia y recuperes tus semillas y tu portafolio a través de las propias rutas de recuperación de la app.",
+          "Las pestañas Actividad / Earn de un token usan ahora el mismo diseño compacto que las de un wallet."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 78,
       "commit": "dd18611c33a6623cc944ce3e63674979e1740cf0",
       "date": "2026-10-22",
