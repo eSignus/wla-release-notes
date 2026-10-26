@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 80,
+      "commit": "cefa4d41e6c9868242452bfa57afcc6379c20cf2",
+      "date": "2026-10-26",
+      "notes": {
+        "en": [
+          "The card-password prompt now has a refreshed design, and if your card refuses the password you typed, the prompt reopens right away for another try instead of showing a generic error.",
+          "The screens for setting a card password while importing a seed phrase now match the latest design.",
+          "A wrong email code or expired email link during re-verification now only pauses email sign-in — biometrics, your password, and card unlock (for Classic accounts) stay available the whole time.",
+          "Settings > Security now offers \"Sign out of all devices\", ending every other active session for your account.",
+          "The developer tools menu is now limited to internal test builds, with extra safeguards around its more sensitive actions.",
+          "A purchase that was approved in your bank's app during a security lock is now correctly recorded once you unlock again, instead of being lost.",
+          "Removed the \"Signed in successfully\" message after signing in, since it's immediately followed by your portfolio.",
+          "Polished the memo field layout on the Send destination screen to match the latest design."
+        ],
+        "es": [
+          "La ventana para introducir la contraseña de la tarjeta tiene un diseño renovado, y si la tarjeta rechaza la contraseña introducida, la ventana se vuelve a abrir al momento para intentarlo de nuevo en vez de mostrar un error genérico.",
+          "Las pantallas para establecer una contraseña de tarjeta al importar una frase semilla ahora siguen el diseño más reciente.",
+          "Un código de email incorrecto o un enlace de email caducado durante la reverificación ahora solo pausa el inicio de sesión por email: la biometría, tu contraseña y el desbloqueo con tarjeta (en cuentas Classic) siguen disponibles en todo momento.",
+          "Ajustes > Seguridad ahora ofrece \"Cerrar sesión en todos los dispositivos\", finalizando el resto de sesiones activas de tu cuenta.",
+          "El menú de herramientas de desarrollador ahora se limita a las compilaciones internas de prueba, con salvaguardas adicionales en sus acciones más sensibles.",
+          "Una compra aprobada en la app de tu banco durante un bloqueo de seguridad ahora se registra correctamente al volver a desbloquear, en vez de perderse.",
+          "Eliminamos el mensaje \"Sesión iniciada correctamente\" tras iniciar sesión, ya que va seguido al instante por tu portafolio.",
+          "Pulimos el diseño del campo de memo en la pantalla de destino de envío para ajustarlo al diseño más reciente."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 79,
       "commit": "c232c4be7f5849313784362433031d4007ad1c28",
       "date": "2026-10-23",
