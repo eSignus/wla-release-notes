@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 81,
+      "commit": "34c1ee80d00cbe4995b60be94ff72b504cc8577c",
+      "date": "2026-10-27",
+      "notes": {
+        "en": [
+          "A fresh install now opens in your phone's own language when it's supported, instead of always starting in English.",
+          "You can add a token manually again from Add asset, picking an existing wallet on its network or creating a new one for it on the spot.",
+          "After adding a wallet for a token, you now land on that wallet's own Token holding tab, matching the design.",
+          "The card re-verification used for Forgot password and account lockout now shares the same streamlined look as the card-password prompt, with a clearer banner when the card refuses the password.",
+          "Sign-in links in email now fill in the code for you without submitting it automatically, so a half-typed code never gets sent by mistake and a stray link can no longer use up your sign-in attempts.",
+          "The Market tab and \"Explore without card\" are temporarily hidden while we refine them.",
+          "\"How to scan my card\" has moved out of the main Settings menu; you'll still find it under Settings > Cards.",
+          "The NFC scan modal's instruction text is now shown in Spanish instead of English on Spanish-language devices."
+        ],
+        "es": [
+          "Una instalación nueva ahora se abre en el idioma de tu teléfono cuando está disponible, en lugar de empezar siempre en inglés.",
+          "Puedes volver a añadir un token manualmente desde Añadir activo, eligiendo un wallet ya existente en su red o creando uno nuevo al momento.",
+          "Tras añadir un wallet para un token, ahora aterrizas en la pestaña Tenencia de tokens de ese wallet, tal como muestra el diseño.",
+          "La reverificación con tarjeta usada en \"¿Olvidaste tu contraseña?\" y en el bloqueo de cuenta ahora comparte el mismo diseño simplificado que la ventana de contraseña de tarjeta, con un aviso más claro cuando la tarjeta rechaza la contraseña.",
+          "Los enlaces de inicio de sesión por email ahora solo rellenan el código sin enviarlo automáticamente, así que un código a medio escribir nunca se envía por error y un enlace suelto ya no puede gastar tus intentos de inicio de sesión.",
+          "La pestaña Mercado y \"Explorar sin tarjeta\" están ocultas temporalmente mientras las perfeccionamos.",
+          "\"Cómo escanear mi tarjeta\" se ha movido fuera del menú principal de Ajustes; sigue disponible en Ajustes > Tarjetas.",
+          "El texto de instrucciones de la ventana de escaneo NFC ahora se muestra en español en vez de en inglés en dispositivos configurados en español."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 80,
       "commit": "cefa4d41e6c9868242452bfa57afcc6379c20cf2",
       "date": "2026-10-26",
