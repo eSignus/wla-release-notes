@@ -12,6 +12,30 @@
     {
       "version": "1.0.0",
       "buildNumber": 81,
+      "commit": "9b41eea01849a2b7447727b529974ad5d16af6a6",
+      "date": "2026-10-28",
+      "notes": {
+        "en": [
+          "A sign-in code is now checked correctly even if you briefly switch to another app while it's verifying, instead of forcing you to wait out the resend timer for a new one.",
+          "Signing back into an account that uses a currency other than US dollars no longer leaves balances stuck loading — they now show right away, and portfolio syncing after sign-in is more reliable overall.",
+          "The Classic backup file restore screens have a refreshed look, with a clearer summary of what's about to be restored and a plainer message that restoring only adds to your portfolio, never removes anything.",
+          "Spanish text throughout the app has been thoroughly reviewed so labels, menus, and buttons display in full instead of being cut off, with consistent terminology and every screen now translated.",
+          "Country names in the phone number picker now display in your selected language instead of always in English.",
+          "Sending transactions that need several wallet inputs at once, such as some Bitcoin-style coins, now completes reliably on iPhone even with a larger number of inputs, with on-screen progress while it works."
+        ],
+        "es": [
+          "Un código de inicio de sesión ahora se verifica correctamente aunque cambies brevemente a otra app mientras se comprueba, en lugar de obligarte a esperar el tiempo de reenvío para pedir uno nuevo.",
+          "Volver a iniciar sesión en una cuenta que usa una moneda distinta al dólar estadounidense ya no deja los saldos cargando indefinidamente: ahora se muestran de inmediato, y la sincronización de la cartera tras iniciar sesión es más fiable en general.",
+          "Las pantallas de restauración de copia de seguridad Classic tienen un diseño renovado, con un resumen más claro de lo que se va a restaurar y un mensaje más sencillo que indica que restaurar solo añade a tu cartera, nunca elimina nada.",
+          "El texto en español de toda la app se ha revisado a fondo para que las etiquetas, menús y botones se muestren completos en vez de cortados, con una terminología coherente y cada pantalla ya traducida.",
+          "Los nombres de los países en el selector del número de teléfono ahora se muestran en tu idioma en vez de siempre en inglés.",
+          "Enviar transacciones que necesitan varias entradas de billetera a la vez, como algunas monedas de estilo Bitcoin, ahora se completa de forma fiable en iPhone incluso con un número mayor de entradas, mostrando el progreso en pantalla mientras se procesa."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "buildNumber": 81,
       "commit": "34c1ee80d00cbe4995b60be94ff72b504cc8577c",
       "date": "2026-10-27",
       "notes": {
