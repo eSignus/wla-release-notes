@@ -11,6 +11,28 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 82,
+      "commit": "f101b5060764e7dbbdf5449177e24c79d6bf2eae",
+      "date": "2026-10-29",
+      "notes": {
+        "en": [
+          "Classic accounts can now reset a forgotten card password from Settings > Cards, using \"Reset card\" to wipe the card and import your seed phrase again with a new password.",
+          "The transaction verification screen's advanced details once again list every decoded field of your signed transaction, and verification now also covers sends on Avalanche and QUBIC's test network.",
+          "After copying a signed transaction and broadcasting it yourself, you can now tell the app you sent it, and it shows up in your activity as pending.",
+          "A backup you restore before signing in is now protected until sign-in finishes, so it can never be inherited by a different account or wiped out by another account signing out on the same device.",
+          "The card's operational password is now generated from a cryptographically secure random source, for stronger protection."
+        ],
+        "es": [
+          "Las cuentas Classic ahora pueden restablecer una contraseña de tarjeta olvidada desde Ajustes > Tarjetas, usando \"Restablecer tarjeta\" para borrar la tarjeta y volver a importar tu frase semilla con una nueva contraseña.",
+          "La pantalla de verificación de transacciones vuelve a mostrar todos los campos decodificados de tu transacción firmada en los detalles avanzados, y la verificación ahora también cubre los envíos en Avalanche y en la red de prueba de QUBIC.",
+          "Después de copiar una transacción firmada y enviarla tú mismo, ahora puedes indicarle a la app que la enviaste, y aparecerá en tu actividad como pendiente.",
+          "Una copia de seguridad que restauras antes de iniciar sesión ahora queda protegida hasta que termina el inicio de sesión, así que nunca puede terminar en manos de otra cuenta ni ser eliminada por el cierre de sesión de otra cuenta en el mismo dispositivo.",
+          "La contraseña operativa de la tarjeta ahora se genera a partir de una fuente aleatoria criptográficamente segura, para una protección más sólida."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 81,
       "commit": "9b41eea01849a2b7447727b529974ad5d16af6a6",
       "date": "2026-10-28",
