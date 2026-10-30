@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 83,
+      "commit": "3cee28383bcbe55e7bc33327527421106ac34399",
+      "date": "2026-10-30",
+      "notes": {
+        "en": [
+          "WalletConnect requests on Android now show the card-scan screen right away instead of a plain spinner, and QUBIC transactions are checked against what the dApp asked for before they're sent.",
+          "The code you receive when creating a Smart account now arrives in your tenant's own email design instead of a generic one.",
+          "My Crypto now shows your last known portfolio the instant you open the app, instead of briefly showing an empty $0 total.",
+          "Pull-to-refresh now only appears on the screens where it actually refreshes something.",
+          "The Smart/Classic account comparison screen now scrolls to fit smaller phones, and the confirmation text is no longer cut off.",
+          "Your saved sign-in email, social sign-in details and cached portfolio data are now stored in your device's secure keychain instead of a plain file, for stronger protection.",
+          "The wallet's derivation path screen now has a clearer header: \"Derivation path\".",
+          "Smaller, more efficient app builds and other behind-the-scenes reliability improvements."
+        ],
+        "es": [
+          "Las solicitudes de WalletConnect en Android ahora muestran la pantalla de escaneo de la tarjeta de inmediato en lugar de solo un indicador de carga, y las transacciones QUBIC se verifican contra lo que pidió la dApp antes de enviarse.",
+          "El código que recibes al crear una cuenta Smart ahora llega con el diseño de email propio de tu entorno, en lugar de uno genérico.",
+          "Mi Cripto ahora muestra tu última cartera conocida en el momento en que abres la app, en lugar de mostrar brevemente un total de $0 vacío.",
+          "Deslizar para actualizar ahora solo aparece en las pantallas donde realmente actualiza algo.",
+          "La pantalla de comparación de cuentas Smart/Classic ahora se desplaza para ajustarse a teléfonos más pequeños, y el texto de confirmación ya no se corta.",
+          "Tu email de inicio de sesión guardado, los datos de inicio de sesión social y la información de cartera en caché ahora se guardan en el almacén seguro de tu dispositivo en lugar de un archivo sin cifrar, para una protección más sólida.",
+          "La pantalla de ruta de derivación de la billetera ahora tiene un encabezado más claro: \"Ruta de derivación\".",
+          "Compilaciones de la app más pequeñas y eficientes, además de otras mejoras internas de fiabilidad."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 82,
       "commit": "f101b5060764e7dbbdf5449177e24c79d6bf2eae",
       "date": "2026-10-29",
