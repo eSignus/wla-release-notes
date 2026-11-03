@@ -11,6 +11,22 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 85,
+      "commit": "2a9a1c3aaee9d262c14e1d7421083240e31f9bf3",
+      "date": "2026-11-03",
+      "notes": {
+        "en": [
+          "Reset card now recognizes a card your account type can't use — the same check Activate card already makes — and tells you why, instead of continuing with it.",
+          "Bitcoin-style sends (BTC, LTC, KAS and similar coins) now spend the fewest UTXOs needed by default, and a new \"Manage UTXOs\" screen on the Send and Swap summary lets you choose exactly which ones to spend."
+        ],
+        "es": [
+          "Restablecer tarjeta ahora reconoce una tarjeta que tu tipo de cuenta no puede usar —la misma verificación que ya hace Activar tarjeta— y te explica por qué, en lugar de continuar con ella.",
+          "Los envíos de monedas basadas en UTXO (BTC, LTC, KAS y similares) ahora gastan por defecto la menor cantidad de UTXOs necesaria, y una nueva pantalla \"Gestionar UTXOs\" en el resumen de Enviar e Intercambiar te permite elegir exactamente cuáles gastar."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 83,
       "commit": "3cee28383bcbe55e7bc33327527421106ac34399",
       "date": "2026-10-30",
