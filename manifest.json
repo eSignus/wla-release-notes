@@ -11,6 +11,30 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 87,
+      "commit": "81d3b68da1502bec02f232814fb0c1182f3467f4",
+      "date": "2026-11-04",
+      "notes": {
+        "en": [
+          "Added \"Speed up\" for a pending Bitcoin, Dogecoin or DigiByte transfer — replace it with the same transaction at a higher fee so it confirms faster.",
+          "A Bitcoin-style transfer that needs several taps of your card during signing now completes reliably, even when a tap in the middle has to be repeated.",
+          "Choosing \"Sign out\" from the wrong-password or email-mismatch screen now always shows its confirmation, so your tap is never left unanswered.",
+          "The Network fees screen now lists fee speeds that cost the same amount as a single option, instead of repeating it.",
+          "Removed an arrow on the coin selector in Set amount and Send to QX that didn't lead anywhere.",
+          "The \"Forgot?\" link on sign-in screens now always fits fully in Spanish."
+        ],
+        "es": [
+          "Se añadió \"Acelerar\" para un envío pendiente de Bitcoin, Dogecoin o DigiByte: reemplázalo por la misma transacción con una comisión mayor para que se confirme más rápido.",
+          "Una transferencia de tipo Bitcoin que necesita varios toques de tu tarjeta durante la firma ahora se completa de forma fiable, incluso cuando hay que repetir un toque a mitad de camino.",
+          "Elegir \"Cerrar sesión\" desde la pantalla de contraseña incorrecta o email no coincidente ahora siempre muestra su confirmación, así que tu toque nunca queda sin respuesta.",
+          "La pantalla de Comisiones de red ahora muestra en una sola fila las velocidades de comisión que cuestan lo mismo, en lugar de repetirla.",
+          "Se eliminó una flecha del selector de moneda en Introducir importe y Enviar a QX que no llevaba a ningún sitio.",
+          "El enlace \"¿Olvidaste?\" de las pantallas de inicio de sesión ahora siempre cabe por completo en español."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 85,
       "commit": "2a9a1c3aaee9d262c14e1d7421083240e31f9bf3",
       "date": "2026-11-03",
