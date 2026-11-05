@@ -11,6 +11,28 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 90,
+      "commit": "507b47cad2f59da3b74005849c783b62a47de6a2",
+      "date": "2026-11-05",
+      "notes": {
+        "en": [
+          "Added \"Ready to send\" — a review step right after signing where you can verify the signed transaction, copy it, or send it from another app when needed.",
+          "Sending a token held in a wallet other than your first one of its kind (for example a second SOL wallet) now signs with that wallet's own key, so the signature always matches.",
+          "\"Speed up\" now rebuilds the replacement from the original transaction's exact inputs and change address, so it can never become a second, separate payment, and takes you back to the wallet once it's done.",
+          "QUBIC transactions now show their confirmation progress on the transaction detail screen, with a wider safety margin before one is reported as not included.",
+          "The purchase checkout now loads only secure (https) pages and blocks scripts from insecure connections, keeping your card details safer while you check out."
+        ],
+        "es": [
+          "Se añadió \"Listo para enviar\" — un paso de revisión justo después de firmar donde puedes verificar la transacción firmada, copiarla o enviarla desde otra app si lo necesitas.",
+          "Enviar un token guardado en una billetera que no es la primera de su tipo (por ejemplo, una segunda billetera SOL) ahora firma con la clave de esa billetera, así que la firma siempre coincide.",
+          "\"Acelerar\" ahora reconstruye el reemplazo a partir de los mismos inputs y la misma dirección de cambio de la transacción original, así que nunca puede convertirse en un segundo pago independiente, y te devuelve a la billetera al terminar.",
+          "Las transacciones de QUBIC ahora muestran su progreso de confirmación en la pantalla de detalle, con un margen de seguridad más amplio antes de reportarse como no incluida.",
+          "La pantalla de compra ahora solo carga páginas seguras (https) y bloquea scripts de conexiones no seguras, protegiendo mejor los datos de tu tarjeta durante la compra."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 87,
       "commit": "81d3b68da1502bec02f232814fb0c1182f3467f4",
       "date": "2026-11-04",
