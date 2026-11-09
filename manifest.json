@@ -11,6 +11,44 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 94,
+      "commit": "c7f15280229695989f086e50faef58b348ee8f14",
+      "date": "2026-11-09",
+      "notes": {
+        "en": [
+          "Wallet creation now stops and tells you clearly if the network declines to generate the wallet's address, instead of ever creating one with no usable address.",
+          "Sending Stellar (XLM), Kinesis Gold (KAU) or Kinesis Silver (KAG) now prepares a brand-new signing step for every attempt, just like QUBIC already did, so your send can never be built against an already-expired window.",
+          "The purchase (Buy) checkout now opens correctly for every payment provider, since the app requests the exact payment method your quote was built with."
+        ],
+        "es": [
+          "La creación de billeteras ahora se detiene y te avisa con claridad si la red se niega a generar la dirección de la billetera, en lugar de llegar a crear una sin una dirección utilizable.",
+          "Enviar Stellar (XLM), Kinesis Gold (KAU) o Kinesis Silver (KAG) ahora prepara un paso de firma completamente nuevo en cada intento, igual que ya hacía QUBIC, para que tu envío nunca se construya sobre una ventana ya caducada.",
+          "El pago (Compra) ahora se abre correctamente con todos los proveedores de pago, ya que la app solicita exactamente el método de pago con el que se generó tu cotización."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
+      "buildNumber": 91,
+      "commit": "43998f1549be1b3d99eae361e7e71ed71bbe2241",
+      "date": "2026-11-06",
+      "notes": {
+        "en": [
+          "\"Reset card\" now lives in the card's own menu, always resets exactly the card you tapped, skips an extra confirmation step to go straight to the scan, and ends on a dedicated success screen. A new \"Forgot password?\" option on the card-password screens takes you straight into it.",
+          "After 5 wrong card passwords, that card's password entry locks for one hour, with a countdown shown on screen, independent of your app unlock password.",
+          "Every timed security lockout in the app, including the new card-password one, now measures time using the device's own internal clock, so it can no longer be skipped by setting the phone's date back.",
+          "The purchase (Buy) flow's payment-method, quote and checkout requests are now built the same way on every tenant, for more consistent, reliable purchases."
+        ],
+        "es": [
+          "\"Restablecer tarjeta\" ahora vive en el menú de la propia tarjeta, siempre restablece exactamente la tarjeta que tocaste, se salta un paso de confirmación adicional para ir directo al escaneo, y termina en una pantalla de éxito dedicada. Una nueva opción \"¿Olvidaste la contraseña?\" en las pantallas de contraseña de la tarjeta te lleva directamente a él.",
+          "Tras 5 contraseñas de tarjeta incorrectas, la entrada de contraseña de esa tarjeta se bloquea durante una hora, mostrando una cuenta regresiva en pantalla, de forma independiente a tu contraseña de desbloqueo de la app.",
+          "Todos los bloqueos de seguridad temporales de la app, incluido el nuevo de contraseña de tarjeta, ahora miden el tiempo con el reloj interno del dispositivo, así que ya no se pueden saltar atrasando la fecha del teléfono.",
+          "Las solicitudes de métodos de pago, cotizaciones y pago del flujo de Compra ahora se construyen igual en los cuatro perfiles, para compras más consistentes y fiables."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 90,
       "commit": "507b47cad2f59da3b74005849c783b62a47de6a2",
       "date": "2026-11-05",
