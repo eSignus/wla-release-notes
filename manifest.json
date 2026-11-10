@@ -11,6 +11,20 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 95,
+      "commit": "86c27fff23e933aaf515e367529d7b51988aef27",
+      "date": "2026-11-10",
+      "notes": {
+        "en": [
+          "The dimmed background behind dialogs and bottom sheets throughout the app now uses the confirmed design color, for a lighter and more consistent look — most noticeable in dark mode."
+        ],
+        "es": [
+          "El fondo oscurecido detrás de los diálogos y los paneles inferiores en toda la app ahora usa el color de diseño confirmado, logrando un aspecto más claro y consistente, especialmente notable en modo oscuro."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 94,
       "commit": "c7f15280229695989f086e50faef58b348ee8f14",
       "date": "2026-11-09",
