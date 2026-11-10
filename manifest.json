@@ -11,6 +11,22 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 96,
+      "commit": "d8f691e20aa8ccfc7200d0757ee3ce589aba4808",
+      "date": "2026-11-10",
+      "notes": {
+        "en": [
+          "The card password screen now shows how many attempts you have left and a clearer \"Card locked\" screen with a countdown and a reset option if you forgot it.",
+          "When a card's applet isn't supported for an operation, the app now shows a clear message explaining that instead of a generic error."
+        ],
+        "es": [
+          "La pantalla de contraseña de la tarjeta ahora muestra cuántos intentos te quedan y una pantalla de \"Tarjeta bloqueada\" más clara, con cuenta regresiva y una opción para restablecerla si la olvidaste.",
+          "Cuando el applet de una tarjeta no es compatible con una operación, la app ahora muestra un mensaje claro que lo explica, en lugar de un error genérico."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 95,
       "commit": "86c27fff23e933aaf515e367529d7b51988aef27",
       "date": "2026-11-10",
