@@ -11,6 +11,22 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 97,
+      "commit": "95018242fa0f5f95d25afe4d61052bc5dea90a98",
+      "date": "2026-11-11",
+      "notes": {
+        "en": [
+          "The \"Card locked\" screen and attempts-left counter also now appear when activating a Classic card with your card password.",
+          "Classic accounts can now be removed from the app without resetting the physical card — it keeps working, and you can add it back later with your card password."
+        ],
+        "es": [
+          "La pantalla de \"Tarjeta bloqueada\" y el contador de intentos restantes ahora también aparecen al activar una tarjeta Classic con tu contraseña de tarjeta.",
+          "Las cuentas Classic ahora se pueden quitar de la app sin restablecer la tarjeta física — esta sigue funcionando, y puedes volver a añadirla luego con tu contraseña de tarjeta."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 96,
       "commit": "d8f691e20aa8ccfc7200d0757ee3ce589aba4808",
       "date": "2026-11-10",
