@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 100,
+      "commit": "852023792fdba8799649a90bee8a0ba0a691bbd6",
+      "date": "2026-11-16",
+      "notes": {
+        "en": [
+          "Crypto prices and balances under one cent now show their exact value, or as <$0.01, instead of rounding down to $0.",
+          "Your Smart portfolio backup now uploads automatically every time you create a new wallet or add a token.",
+          "A new wallet is now named with the correct sequential number, even right after creating or removing other wallets.",
+          "QUBIC transactions now let the network size the confirmation time window automatically, and retrying a missed one proposes a window matched to current network speed.",
+          "Network fees are now always shown in full, never rounded down to 0.00 or shown in scientific notation.",
+          "A transaction the network rejects now shows a clear, retryable \"rejected\" message instead of an unclear outcome.",
+          "Transactions the network reports as failed now show as failed in your activity history, instead of being marked as confirmed.",
+          "Fiat prices now keep refreshing for portfolios with many assets, instead of stopping past a certain size."
+        ],
+        "es": [
+          "Los precios de criptomonedas y los saldos de menos de un centavo ahora muestran su valor exacto, o como <$0.01, en lugar de redondearse a $0.",
+          "La copia de seguridad de tu portafolio Smart ahora se sube automáticamente cada vez que creas una billetera nueva o añades un token.",
+          "Una billetera nueva ahora se nombra con el número secuencial correcto, incluso justo después de crear o eliminar otras billeteras.",
+          "Las transacciones QUBIC ahora dejan que la red ajuste automáticamente la ventana de tiempo de confirmación, y reintentar una que no se confirmó propone una ventana acorde a la velocidad actual de la red.",
+          "Las comisiones de red ahora siempre se muestran completas, nunca redondeadas a 0.00 ni en notación científica.",
+          "Una transacción que la red rechaza ahora muestra un mensaje claro de \"rechazada\" que permite reintentar, en lugar de un resultado incierto.",
+          "Las transacciones que la red reporta como fallidas ahora aparecen como fallidas en tu historial de actividad, en lugar de marcarse como confirmadas.",
+          "Los precios en moneda local ahora se siguen actualizando en portafolios con muchos activos, en lugar de detenerse a partir de cierto tamaño."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 97,
       "commit": "95018242fa0f5f95d25afe4d61052bc5dea90a98",
       "date": "2026-11-11",
