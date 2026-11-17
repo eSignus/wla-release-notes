@@ -11,6 +11,22 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 101,
+      "commit": "edb6d0f6848a9adcf072a83ea81407baf844b9f4",
+      "date": "2026-11-17",
+      "notes": {
+        "en": [
+          "Email sign-in code links sent as secure web links are now recognized and filled in automatically, including when tapped while the app is already open on iOS.",
+          "Recovering a token wallet from your cloud backup, or adding back a previously hidden token, now correctly reuses its existing wallet and keeps its full activity history instead of creating a duplicate."
+        ],
+        "es": [
+          "Los enlaces de código de acceso por correo enviados como enlaces web seguros ahora se reconocen y completan automáticamente, incluso al tocarlos con la app ya abierta en iOS.",
+          "Recuperar una billetera de token desde tu copia de seguridad en la nube, o volver a añadir un token que habías ocultado, ahora reutiliza correctamente su billetera existente y conserva todo su historial de actividad, en lugar de crear un duplicado."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 100,
       "commit": "852023792fdba8799649a90bee8a0ba0a691bbd6",
       "date": "2026-11-16",
