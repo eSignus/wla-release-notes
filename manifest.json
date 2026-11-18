@@ -11,6 +11,24 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 102,
+      "commit": "b61532e0295378601ee280193cf588cd52869003",
+      "date": "2026-11-18",
+      "notes": {
+        "en": [
+          "Creating a wallet right after switching to a different seed on your card no longer times out on iOS — each step of the switch now gets its own full session.",
+          "If activating a Smart card is interrupted partway through, the app can now pick up where it left off using your Backup Center data, instead of leaving the card unusable.",
+          "Smart accounts' card and seed menus no longer show a Delete option that didn't apply to them, avoiding confusion about how to remove a Smart account."
+        ],
+        "es": [
+          "Crear una billetera justo después de cambiar a otra semilla en tu tarjeta ya no agota el tiempo de espera en iOS — cada paso del cambio ahora tiene su propia sesión completa.",
+          "Si la activación de una tarjeta Smart se interrumpe a mitad de camino, la app ahora puede continuar donde quedó usando los datos de tu Backup Center, en lugar de dejar la tarjeta inutilizable.",
+          "Los menús de tarjeta y semilla de las cuentas Smart ya no muestran una opción de Eliminar que no les correspondía, evitando confusión sobre cómo quitar una cuenta Smart."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 101,
       "commit": "edb6d0f6848a9adcf072a83ea81407baf844b9f4",
       "date": "2026-11-17",
