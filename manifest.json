@@ -11,6 +11,30 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 104,
+      "commit": "b8dea42a6ac105c1014f5f0446fc7ac4fbeeef7a",
+      "date": "2026-11-19",
+      "notes": {
+        "en": [
+          "Adding an email that's already registered now offers to sign in with it right away, instead of opening an activation-code screen that never receives a code.",
+          "Seed chips in My Crypto are now easier to tap, with a full touch target, and only scroll when they don't all fit on screen.",
+          "Hiding a seed no longer hides or deselects the other seed chips in My Crypto, and the selected chip scrolls back into view when you return to the screen.",
+          "The lock screen now raises the biometric prompt automatically when the app resumes, with a button to retry if you dismiss it.",
+          "Wallet creation and signing now complete reliably on older or slower NFC readers, instead of timing out partway through.",
+          "The app is now available on Google Play for devices without Wi-Fi hardware or forced-portrait support, which were excluded before."
+        ],
+        "es": [
+          "Añadir un correo que ya está registrado ahora ofrece iniciar sesión con él de inmediato, en lugar de abrir una pantalla de código de activación que nunca recibe el código.",
+          "Los chips de semilla en Mi Cripto ahora son más fáciles de tocar, con un área de toque completa, y solo se desplazan cuando no caben todos en pantalla.",
+          "Ocultar una semilla ya no oculta ni deselecciona los demás chips de semilla en Mi Cripto, y el chip seleccionado vuelve a desplazarse a la vista al regresar a la pantalla.",
+          "La pantalla de bloqueo ahora muestra automáticamente el aviso biométrico al reanudar la app, con un botón para reintentarlo si lo descartas.",
+          "La creación de billeteras y la firma ahora se completan de forma confiable en lectores NFC más antiguos o lentos, en lugar de agotar el tiempo de espera a mitad de camino.",
+          "La app ahora está disponible en Google Play para dispositivos sin hardware Wi-Fi o sin soporte forzado de orientación vertical, que antes quedaban excluidos."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 102,
       "commit": "b61532e0295378601ee280193cf588cd52869003",
       "date": "2026-11-18",
