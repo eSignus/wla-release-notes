@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 106,
+      "commit": "4c9ea186a02d5c23c094d1dfbdf57e86f8d13bf2",
+      "date": "2026-11-23",
+      "notes": {
+        "en": [
+          "You can now activate the second card of a card pack in one tap: it's set up with the same seed as the pack's main card.",
+          "Your cards now show their own printed design across the app, from your card list to the card picker and backup card orders.",
+          "Activating a card now confirms that its name is stored with its backup in the Backup Center, so the backup is always found later.",
+          "First-generation cards are now clearly identified as not compatible when you try to activate them.",
+          "In My Crypto, a coin's price now appears right away, even while its balance is still syncing after a seed recovery.",
+          "Very small movements, such as most QUBIC transactions, now show their exact value in Activity and in transaction details, down to their significant digits.",
+          "On Android, the app now uses the full screen on every version, including Android 16, with content kept clear of the system bars.",
+          "Fast sign-in setup now offers biometrics directly when your account already has a password, and Settings shows the Theme option only where a light mode is available."
+        ],
+        "es": [
+          "Ahora puedes activar la segunda tarjeta de un pack con un solo toque: se configura con la misma semilla que la tarjeta principal del pack.",
+          "Tus tarjetas ahora muestran su propio diseño impreso en toda la app, desde la lista de tarjetas hasta el selector de tarjeta y los pedidos de tarjeta de respaldo.",
+          "Al activar una tarjeta, ahora se confirma que su nombre queda guardado junto a su copia de seguridad en el Backup Center, para que la copia se encuentre siempre después.",
+          "Las tarjetas de primera generación ahora se identifican claramente como no compatibles al intentar activarlas.",
+          "En Mi Cripto, el precio de cada moneda ahora aparece de inmediato, incluso mientras su saldo aún se sincroniza tras recuperar una semilla.",
+          "Los movimientos muy pequeños, como la mayoría de las transacciones de QUBIC, ahora muestran su valor exacto en Actividad y en el detalle de la transacción, con todas sus cifras significativas.",
+          "En Android, la app ahora ocupa toda la pantalla en todas las versiones, incluido Android 16, sin que el contenido quede bajo las barras del sistema.",
+          "La configuración del acceso rápido ahora ofrece directamente el acceso biométrico si tu cuenta ya tiene contraseña, y Ajustes muestra la opción de Tema solo donde hay modo claro."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 104,
       "commit": "b8dea42a6ac105c1014f5f0446fc7ac4fbeeef7a",
       "date": "2026-11-19",
