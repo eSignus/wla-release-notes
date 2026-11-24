@@ -11,6 +11,30 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 107,
+      "commit": "6060439c288d6030f680ebbed7f4a2aa721e99c3",
+      "date": "2026-11-24",
+      "notes": {
+        "en": [
+          "Hiding a wallet from its options sheet now keeps the sheet open until you close it, instead of closing automatically.",
+          "Swap's summary and result screens now label this field \"Quote ID\", and Verify public key shows the same wording in every case, including for a newly created custom token wallet.",
+          "Hiding or showing a seed in Settings, and sharing diagnostics during onboarding, no longer show an extra confirmation toast — the visual change is the feedback.",
+          "The sign-in screen shown when resuming the app now shows Password as the primary option, with Biometrics and \"Sign in with card\" below it.",
+          "On Set up password, the Repeat password field now updates as soon as you change the first password field, instead of waiting until both are filled.",
+          "After creating a new account on iOS, My Crypto's main button (\"Activate card\" / \"Create or import seed\") now responds right away, instead of needing an app restart first."
+        ],
+        "es": [
+          "Ocultar una billetera desde su hoja de opciones ahora mantiene la hoja abierta hasta que la cierras, en lugar de cerrarse automáticamente.",
+          "Las pantallas de resumen y resultado de Swap ahora etiquetan este campo como \"ID de cotización\", y Verificar clave pública muestra el mismo texto en todos los casos, incluida una billetera de token personalizado recién creada.",
+          "Ocultar o mostrar una semilla en Ajustes, y compartir diagnósticos durante la incorporación, ya no muestran un aviso de confirmación adicional — el cambio visual es la confirmación.",
+          "La pantalla de inicio de sesión al reanudar la app ahora muestra Contraseña como opción principal, con Biometría e \"Iniciar sesión con tarjeta\" debajo.",
+          "En Configurar contraseña, el campo Repetir contraseña ahora se actualiza en cuanto cambias el primer campo de contraseña, en lugar de esperar a que completes ambos.",
+          "Tras crear una cuenta nueva en iOS, el botón principal de Mi Cripto (\"Activar tarjeta\" / \"Crear o importar semilla\") ahora responde de inmediato, en lugar de necesitar reiniciar la app primero."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 106,
       "commit": "4c9ea186a02d5c23c094d1dfbdf57e86f8d13bf2",
       "date": "2026-11-23",
