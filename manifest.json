@@ -11,6 +11,34 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 108,
+      "commit": "27700eeea492cf615a11025debb770cc7a163f5b",
+      "date": "2026-11-25",
+      "notes": {
+        "en": [
+          "Settings → Submit a request is now a form inside the app: choose a topic, describe what you need, attach up to 5 photos or files and, if it helps, scan your card. Contact support in Card health opens the same form.",
+          "Shared diagnostics now identify your app only by a random Support ID, shown in Settings → User statistics, where you can copy it or generate a new one. These controls switch on when you choose to share.",
+          "Unlocking with biometrics is quicker: your session is renewed in the background as soon as the lock screen opens.",
+          "The Earn tab opens straight away with your positions when you return to it, and Qearn balances appear sooner after opening the app.",
+          "On Classic accounts with a card on this phone, the unlock screen now also offers \"Sign in with card\", below Biometrics and Password.",
+          "Refreshed layouts across My Crypto, seed management, cards, backup card and Settings, in line with the new design system — including compact seed chips, clearer asset rows, and Settings that show your current theme, language, currency and sign-in options at a glance.",
+          "Import seed phrase now starts with both settings empty and offers the BIP39 standard, and \"Review\" after an invalid phrase restarts the entry from word 1.",
+          "Backup card verification shows your registered phone with its country code, names the app the code is sent to (for example Telegram), and shows \"Verifying code…\" while it checks."
+        ],
+        "es": [
+          "Ajustes → Enviar una solicitud ahora es un formulario dentro de la app: elige un tema, describe lo que necesitas, adjunta hasta 5 fotos o archivos y, si ayuda, escanea tu tarjeta. «Contactar con soporte», en Estado de la tarjeta, abre el mismo formulario.",
+          "Los diagnósticos que compartes identifican tu app solo con un ID de soporte aleatorio, visible en Ajustes → Estadísticas de usuario, donde puedes copiarlo o generar uno nuevo. Estos controles se activan cuando eliges compartir.",
+          "El desbloqueo con biometría es más rápido: tu sesión se renueva en segundo plano en cuanto se abre la pantalla de bloqueo.",
+          "La pestaña Earn se abre al instante con tus posiciones cuando vuelves a ella, y los saldos de Qearn aparecen antes al abrir la app.",
+          "En las cuentas Classic con una tarjeta en este teléfono, la pantalla de desbloqueo también ofrece «Iniciar sesión con tarjeta», debajo de Biometría y Contraseña.",
+          "Diseño renovado en My Crypto, la gestión de semillas, las tarjetas, la tarjeta de respaldo y Ajustes, en línea con el nuevo sistema de diseño: chips de semilla más compactos, filas de activos más claras y unos Ajustes que muestran de un vistazo tu tema, idioma, moneda y opciones de acceso.",
+          "Importar frase semilla empieza ahora con los dos ajustes vacíos y ofrece el estándar BIP39, y «Revisar» tras una frase no válida vuelve a empezar desde la palabra 1.",
+          "La verificación de la tarjeta de respaldo muestra tu teléfono registrado con su prefijo, indica la app a la que se envía el código (por ejemplo, Telegram) y muestra «Verificando código…» mientras lo comprueba."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 107,
       "commit": "6060439c288d6030f680ebbed7f4a2aa721e99c3",
       "date": "2026-11-24",
