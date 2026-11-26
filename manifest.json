@@ -11,6 +11,30 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 109,
+      "commit": "f8155c3b69b1f8768636eb33b0f0c94119b149c6",
+      "date": "2026-11-26",
+      "notes": {
+        "en": [
+          "Typing a decimal amount in Send, Earn, Qearn, Swap or Move to QX now always uses your phone's own decimal separator, instead of sometimes being flagged as ambiguous.",
+          "The loading screen shown while signing in or setting up now matches the refreshed design, with the app's logo and a simple \"Loading…\" message.",
+          "Spacing between rows and elements is now consistent throughout the app, including Receive's seed and coin chips and several lists that previously sat too close together.",
+          "Import seed phrase's word fields now show their label only once you start typing, and the word-suggestion list resizes to fit instead of stretching the whole screen.",
+          "Restoring a backup file now tells you when the file picker couldn't open, instead of the button appearing to do nothing.",
+          "Submit a request now tells you if a photo or file couldn't be attached, and gives clearer messaging when the server's response to your request is uncertain."
+        ],
+        "es": [
+          "Escribir un importe decimal en Enviar, Earn, Qearn, Swap o Mover a QX ahora siempre usa el separador decimal de tu teléfono, en lugar de marcarse a veces como ambiguo.",
+          "La pantalla de carga que aparece al iniciar sesión o configurar la cuenta ahora sigue el diseño renovado, con el logo de la app y un simple mensaje \"Cargando…\".",
+          "El espaciado entre filas y elementos ahora es consistente en toda la app, incluidos los chips de semilla y moneda de Recibir y varias listas que antes quedaban demasiado juntas.",
+          "Los campos de palabra de Importar frase semilla ahora muestran su etiqueta solo al empezar a escribir, y la lista de sugerencias se ajusta a su contenido en lugar de estirarse por toda la pantalla.",
+          "Restaurar un archivo de copia de seguridad ahora avisa si el selector de archivos no pudo abrirse, en lugar de que el botón parezca no hacer nada.",
+          "Enviar una solicitud ahora avisa si una foto o archivo no se pudo adjuntar, y da un mensaje más claro cuando la respuesta del servidor a tu solicitud es incierta."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 108,
       "commit": "27700eeea492cf615a11025debb770cc7a163f5b",
       "date": "2026-11-25",
