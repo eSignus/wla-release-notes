@@ -11,6 +11,22 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 110,
+      "commit": "87e05d24c85c9d692502cbbfaf7543c467935e36",
+      "date": "2026-11-27",
+      "notes": {
+        "en": [
+          "Text fields no longer reserve an empty gap below them when there's no hint or error message to show, and helper text now has more consistent spacing wherever it appears.",
+          "Sign-in screens that show your registered email (quick unlock and Smart sign-in) now display it in the app's standard field style, like every other input."
+        ],
+        "es": [
+          "Los campos de texto ya no reservan un espacio vacío debajo cuando no hay ninguna sugerencia o mensaje de error que mostrar, y el texto de ayuda ahora tiene un espaciado más consistente en todas partes.",
+          "Las pantallas de inicio de sesión que muestran tu correo registrado (desbloqueo rápido e inicio de sesión Smart) ahora lo muestran con el estilo estándar de los campos de la app, igual que cualquier otro campo."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 109,
       "commit": "f8155c3b69b1f8768636eb33b0f0c94119b149c6",
       "date": "2026-11-26",
