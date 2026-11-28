@@ -11,6 +11,26 @@
   "releases": [
     {
       "version": "1.0.0",
+      "buildNumber": 111,
+      "commit": "0f691a8d91d0358a30937d5b4959896ffa796577",
+      "date": "2026-11-28",
+      "notes": {
+        "en": [
+          "A native coin that shares its ticker with a hidden token (for example native Solana alongside a hidden Binance-Peg SOL token) is now always resolved correctly everywhere — wallet names, balances, addresses, recovery, Buy and sending — instead of occasionally picking up the token's data.",
+          "Tokens on chains other than Ethereum (for example BNB Chain) now show their icon and price correctly, instead of a blank icon and $0.",
+          "Starting over or switching accounts now gives the new account a clean My Crypto — its own sort, filters, favourites and coin order — instead of inheriting the previous account's.",
+          "Closing a completed UTXO compound now always takes you to the wallet's Activity tab, instead of sometimes opening Earn."
+        ],
+        "es": [
+          "Una moneda nativa que comparte ticker con un token oculto (por ejemplo, Solana nativa junto a un token oculto Binance-Peg SOL) ahora siempre se resuelve correctamente en todas partes — nombres de billetera, saldos, direcciones, recuperación, Comprar y envíos — en lugar de tomar a veces los datos del token.",
+          "Los tokens en cadenas distintas de Ethereum (por ejemplo, BNB Chain) ahora muestran su ícono y precio correctamente, en lugar de un ícono en blanco y $0.",
+          "Empezar de nuevo o cambiar de cuenta ahora le da a la nueva cuenta un Mi Cripto limpio — su propio orden, filtros, favoritos y orden de monedas — en lugar de heredar los de la cuenta anterior.",
+          "Cerrar un compound de UTXO completado ahora siempre te lleva a la pestaña Actividad de la billetera, en lugar de abrir a veces Earn."
+        ]
+      }
+    },
+    {
+      "version": "1.0.0",
       "buildNumber": 110,
       "commit": "87e05d24c85c9d692502cbbfaf7543c467935e36",
       "date": "2026-11-27",
